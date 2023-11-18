@@ -8,13 +8,15 @@
                     </figure>
                 </div>
                 <div class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen">
-                    <p>{{site.author-about}}</p>
+                    {% for presentation in site.presentations %}
+                    <p style="text-align: justify;">{{presentation}}</p>
+                    {% endfor %}
+
                     <br>
                     <div class="container columns is-centered">
                         <div>
                             <a href="{{site.url}}{{site.baseurl}}/#contact"
-                                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">Contact
-                                Me</a>
+                                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">Nous contacter</a>
                             </a>
                         </div>
                         <div>
@@ -24,6 +26,43 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            </br>
+            <hr class="has-background-black">
+            <h1 class="title is-size-4-touch">Membres du bureau</h1>
+            <hr class="has-background-black">
+            <div class="sponsors-cards">
+                {% for member in site.data.members %}
+                <!-- <div class="sponsors-card" style="width: {{member.width}};">
+                    <a href="{{member.link | absolute_url}}">
+                    <div 
+                    class="has-background-blackk"
+                    >
+                        <figure  >
+                            <img src="{{member.image}}"/>
+                        </figure>
+                        <div class="card-content">
+                        <h1 class="title has-text-black is-size-4">{{ member.name }}</h1>
+                        </div>
+                    </div>
+                    </a>
+                </div> -->
+                <div class="column has-text-centered is-paddingless is-marginless is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch"
+                id="project-card">
+                 <!--        <a href="{{project.link | absolute_url}}" target="_blank" > -->
+                <a href="{{member.link | absolute_url}}">
+                  <div class="has-background-black card">
+                    <figure  >
+                        <img src="{{member.image}}"/>
+                    </figure>
+                    <div class="card-content">
+                      <h1 class="title has-text-white is-size-4">{{ member.name }}</h1>
+                      <p class="has-text-white has-text-weight-light content">{{ member.description | truncate: 80}}</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+                {% endfor %}
             </div>
         </div>
 </section>
