@@ -1,28 +1,60 @@
-- name: John Doe
+- name: Kevin Marais
+  image: assets/images/Kevin_Marais.jpeg
+  link: https://www.google.fr/search?q=Kevin+Marais
+  age: 36 ans
+  metier: Couvreur
+  fonction: Président
+- name: Marchetti Baptiste
+  image: assets/images/Marchetti_Baptiste.jpeg
+  link: https://www.google.fr/search?q=Marchetti+Baptiste
+  age: 28 ans
+  metier: Informaticien
+  fonction: Président
+- name: Boiziot Laetitia
+  image: assets/images/Boiziot_Laetitia.jpg
+  link: https://www.google.fr/search?q=Boiziot+Laetitia
+  age: 38 ans
+  metier: Gestionnaire de paye
+  fonction: Trésorière
+- name: Hammari Mohamed
+  image: assets/images/Hammari_Mohamed.jpg
+  link: https://www.google.fr/search?q=Hammari+Mohamed
+  age: 34 ans
+  metier: Mécanicien
+  fonction: Trésorier
+- name: Boiziot Nicolas
+  image: assets/images/Boiziot_Nicolas.jpeg
+  link: https://www.google.fr/search?q=Boiziot+Nicolas
+  age: 38 ans
+  metier: Technicien de maintenance
+  fonction: Secrétaire
+- name: Guyon Jean-Pierre
+  image: assets/images/Guyon_Jean_pierre.jpeg
+  link: https://www.google.fr/search?q=Guyon+Jean+pierre
+  age: 38 ans
+  metier: Frigoriste
+  fonction: Secrétaire
+- name: Novaes Marcelo
+  image: assets/images/Novaes_Marcelo.jpeg
+  link: https://www.google.fr/search?q=Novaes+Marcelo
+  age: 37 ans
+  metier: Chef d’entreprise
+  fonction: Web designeur
+- name: Covents Armand
+  image: assets/images/Covents_Armand.jpg
+  link: https://www.google.fr/search?q=Covents+Armand
+  age: 27 ans
+  metier: Peintre automobile
+  fonction: Logistique et coordination
+- name: Fonteneau Yves
+  image: assets/images/Fonteneau_Yves.jpeg
+  link: https://www.google.fr/search?q=Fonteneau+Yves
+  age: 40 ans
+  metier: Mécanicien
+  fonction: Logistique et coordination
+- name: Sullivan Pineau
   image: assets/images/personne.jpg
   link: https://www.pokerstars.fr/
-  description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas adipisci tempore illo accusantium consequatur doloremque dignissimos quo, maxime eius cum enim recusandae qui, delectus ea autem architecto? Velit natus, tempora, quaerat voluptates consectetur magnam aliquid veritatis cumque tempore ipsam delectus eveniet distinctio hic quod reiciendis excepturi beatae doloribus, recusandae ex sed sapiente aliquam deleniti! Quis commodi culpa doloremque quaerat rem natus! Vero ipsam expedita id at quidem. In sit voluptatibus error cum? Minima sunt porro, architecto natus accusantium earum rerum voluptate recusandae fugit, error consequatur, quibusdam dolore quod minus culpa ipsa laudantium odit distinctio exercitationem dolorum. Sunt iste cumque a quae reprehenderit sed dolorum, culpa hic dolores saepe asperiores illum consectetur vitae tenetur dolorem voluptatum totam in repellat voluptatibus laudantium deleniti quasi. Adipisci animi cupiditate eligendi optio nemo accusantium sed quo expedita modi dolor autem atque natus, non excepturi. Eaque inventore quis aperiam vel quae dicta tenetur, placeat facilis, natus dignissimos molestias quidem dolor ad voluptate nam harum maxime. Commodi illum esse iste eaque, saepe praesentium, vero adipisci necessitatibus tenetur maiores sit voluptate eos facere doloribus. Explicabo neque quibusdam, sint nihil reprehenderit alias asperiores aperiam rem voluptas quas, in qui odio quos similique at. Illo voluptas temporibus enim laudantium quas?
-- name: Kylian Mbappé
-  image: assets/images/personne.jpg
-  link: https://www.winamax.fr/
-  description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas adipisci tempore illo accusantium consequatur doloremque dignissimos quo, maxime eius cum enim recusandae qui, delectus ea autem architecto? Velit natus, tempora, quaerat voluptates consectetur magnam aliquid veritatis cumque tempore ipsam delectus eveniet distinctio hic quod reiciendis excepturi beatae doloribus, recusandae ex sed sapiente aliquam deleniti! Quis commodi culpa doloremque quaerat rem natus! Vero ipsam expedita id at quidem. In sit voluptatibus error cum? Minima sunt porro, architecto natus accusantium earum rerum voluptate recusandae fugit, error consequatur, quibusdam dolore quod minus culpa ipsa laudantium odit distinctio exercitationem dolorum. Sunt iste cumque a quae reprehenderit sed dolorum, culpa hic dolores saepe asperiores illum consectetur vitae tenetur dolorem voluptatum totam in repellat voluptatibus laudantium deleniti quasi. Adipisci animi cupiditate eligendi optio nemo accusantium sed quo expedita modi dolor autem atque natus, non excepturi. Eaque inventore quis aperiam vel quae dicta tenetur, placeat facilis, natus dignissimos molestias quidem dolor ad voluptate nam harum maxime. Commodi illum esse iste eaque, saepe praesentium, vero adipisci necessitatibus tenetur maiores sit voluptate eos facere doloribus. Explicabo neque quibusdam, sint nihil reprehenderit alias asperiores aperiam rem voluptas quas, in qui odio quos similique at. Illo voluptas temporibus enim laudantium quas?
-- name: Capucine Delannoy
-  image: assets/images/personne.jpg
-  link: https://www.winamax.fr/
-  description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas adipisci tempore illo accusantium consequatur doloremque dignissimos quo, maxime eius cum enim recusandae qui, delectus ea autem architecto? Velit natus, tempora, quaerat voluptates consectetur magnam aliquid veritatis cumque tempore ipsam delectus eveniet distinctio hic quod reiciendis excepturi beatae doloribus, recusandae ex sed sapiente aliquam deleniti! Quis commodi culpa doloremque quaerat rem natus! Vero ipsam expedita id at quidem. In sit voluptatibus error cum? Minima sunt porro, architecto natus accusantium earum rerum voluptate recusandae fugit, error consequatur, quibusdam dolore quod minus culpa ipsa laudantium odit distinctio exercitationem dolorum. Sunt iste cumque a quae reprehenderit sed dolorum, culpa hic dolores saepe asperiores illum consectetur vitae tenetur dolorem voluptatum totam in repellat voluptatibus laudantium deleniti quasi. Adipisci animi cupiditate eligendi optio nemo accusantium sed quo expedita modi dolor autem atque natus, non excepturi. Eaque inventore quis aperiam vel quae dicta tenetur, placeat facilis, natus dignissimos molestias quidem dolor ad voluptate nam harum maxime. Commodi illum esse iste eaque, saepe praesentium, vero adipisci necessitatibus tenetur maiores sit voluptate eos facere doloribus. Explicabo neque quibusdam, sint nihil reprehenderit alias asperiores aperiam rem voluptas quas, in qui odio quos similique at. Illo voluptas temporibus enim laudantium quas?
-- name: Charles Brodel
-  image: assets/images/personne.jpg
-  link: https://www.winamax.fr/
-  description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas adipisci tempore illo accusantium consequatur doloremque dignissimos quo, maxime eius cum enim recusandae qui, delectus ea autem architecto? Velit natus, tempora, quaerat voluptates consectetur magnam aliquid veritatis cumque tempore ipsam delectus eveniet distinctio hic quod reiciendis excepturi beatae doloribus, recusandae ex sed sapiente aliquam deleniti! Quis commodi culpa doloremque quaerat rem natus! Vero ipsam expedita id at quidem. In sit voluptatibus error cum? Minima sunt porro, architecto natus accusantium earum rerum voluptate recusandae fugit, error consequatur, quibusdam dolore quod minus culpa ipsa laudantium odit distinctio exercitationem dolorum. Sunt iste cumque a quae reprehenderit sed dolorum, culpa hic dolores saepe asperiores illum consectetur vitae tenetur dolorem voluptatum totam in repellat voluptatibus laudantium deleniti quasi. Adipisci animi cupiditate eligendi optio nemo accusantium sed quo expedita modi dolor autem atque natus, non excepturi. Eaque inventore quis aperiam vel quae dicta tenetur, placeat facilis, natus dignissimos molestias quidem dolor ad voluptate nam harum maxime. Commodi illum esse iste eaque, saepe praesentium, vero adipisci necessitatibus tenetur maiores sit voluptate eos facere doloribus. Explicabo neque quibusdam, sint nihil reprehenderit alias asperiores aperiam rem voluptas quas, in qui odio quos similique at. Illo voluptas temporibus enim laudantium quas?
-- name: Michel Drucker
-  image: assets/images/personne.jpg
-  link: https://www.winamax.fr/
-  description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas adipisci tempore illo accusantium consequatur doloremque dignissimos quo, maxime eius cum enim recusandae qui, delectus ea autem architecto? Velit natus, tempora, quaerat voluptates consectetur magnam aliquid veritatis cumque tempore ipsam delectus eveniet distinctio hic quod reiciendis excepturi beatae doloribus, recusandae ex sed sapiente aliquam deleniti! Quis commodi culpa doloremque quaerat rem natus! Vero ipsam expedita id at quidem. In sit voluptatibus error cum? Minima sunt porro, architecto natus accusantium earum rerum voluptate recusandae fugit, error consequatur, quibusdam dolore quod minus culpa ipsa laudantium odit distinctio exercitationem dolorum. Sunt iste cumque a quae reprehenderit sed dolorum, culpa hic dolores saepe asperiores illum consectetur vitae tenetur dolorem voluptatum totam in repellat voluptatibus laudantium deleniti quasi. Adipisci animi cupiditate eligendi optio nemo accusantium sed quo expedita modi dolor autem atque natus, non excepturi. Eaque inventore quis aperiam vel quae dicta tenetur, placeat facilis, natus dignissimos molestias quidem dolor ad voluptate nam harum maxime. Commodi illum esse iste eaque, saepe praesentium, vero adipisci necessitatibus tenetur maiores sit voluptate eos facere doloribus. Explicabo neque quibusdam, sint nihil reprehenderit alias asperiores aperiam rem voluptas quas, in qui odio quos similique at. Illo voluptas temporibus enim laudantium quas?
-- name: Michel Drucker
-  image: assets/images/personne.jpg
-  link: https://www.winamax.fr/
-  description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas adipisci tempore illo accusantium consequatur doloremque dignissimos quo, maxime eius cum enim recusandae qui, delectus ea autem architecto? Velit natus, tempora, quaerat voluptates consectetur magnam aliquid veritatis cumque tempore ipsam delectus eveniet distinctio hic quod reiciendis excepturi beatae doloribus, recusandae ex sed sapiente aliquam deleniti! Quis commodi culpa doloremque quaerat rem natus! Vero ipsam expedita id at quidem. In sit voluptatibus error cum? Minima sunt porro, architecto natus accusantium earum rerum voluptate recusandae fugit, error consequatur, quibusdam dolore quod minus culpa ipsa laudantium odit distinctio exercitationem dolorum. Sunt iste cumque a quae reprehenderit sed dolorum, culpa hic dolores saepe asperiores illum consectetur vitae tenetur dolorem voluptatum totam in repellat voluptatibus laudantium deleniti quasi. Adipisci animi cupiditate eligendi optio nemo accusantium sed quo expedita modi dolor autem atque natus, non excepturi. Eaque inventore quis aperiam vel quae dicta tenetur, placeat facilis, natus dignissimos molestias quidem dolor ad voluptate nam harum maxime. Commodi illum esse iste eaque, saepe praesentium, vero adipisci necessitatibus tenetur maiores sit voluptate eos facere doloribus. Explicabo neque quibusdam, sint nihil reprehenderit alias asperiores aperiam rem voluptas quas, in qui odio quos similique at. Illo voluptas temporibus enim laudantium quas?
-- name: Michel Drucker
-  image: assets/images/personne.jpg
-  link: https://www.winamax.fr/
-  description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas adipisci tempore illo accusantium consequatur doloremque dignissimos quo, maxime eius cum enim recusandae qui, delectus ea autem architecto? Velit natus, tempora, quaerat voluptates consectetur magnam aliquid veritatis cumque tempore ipsam delectus eveniet distinctio hic quod reiciendis excepturi beatae doloribus, recusandae ex sed sapiente aliquam deleniti! Quis commodi culpa doloremque quaerat rem natus! Vero ipsam expedita id at quidem. In sit voluptatibus error cum? Minima sunt porro, architecto natus accusantium earum rerum voluptate recusandae fugit, error consequatur, quibusdam dolore quod minus culpa ipsa laudantium odit distinctio exercitationem dolorum. Sunt iste cumque a quae reprehenderit sed dolorum, culpa hic dolores saepe asperiores illum consectetur vitae tenetur dolorem voluptatum totam in repellat voluptatibus laudantium deleniti quasi. Adipisci animi cupiditate eligendi optio nemo accusantium sed quo expedita modi dolor autem atque natus, non excepturi. Eaque inventore quis aperiam vel quae dicta tenetur, placeat facilis, natus dignissimos molestias quidem dolor ad voluptate nam harum maxime. Commodi illum esse iste eaque, saepe praesentium, vero adipisci necessitatibus tenetur maiores sit voluptate eos facere doloribus. Explicabo neque quibusdam, sint nihil reprehenderit alias asperiores aperiam rem voluptas quas, in qui odio quos similique at. Illo voluptas temporibus enim laudantium quas?
+  age: 28 ans
+  metier: Lead developpeur
+  fonction: Petite main du site (webmaster)

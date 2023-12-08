@@ -3,6 +3,45 @@
 
 @import "main.scss";
 
+@font-face {
+    font-family: Europa_CG_Bold_Regular;
+    src: url("Europa_CG_Bold_Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Montserrat_Light;
+    src: url("Montserrat_Light.otf") format("opentype");
+}
+
+.is-red-pcpm-text {
+    color: #C00418 !important;
+}
+
+.is-black-pcpm-text {
+    color: #000000 !important;
+}
+
+.is-grey-pcpm-text {
+    color: #4C4D4A !important;
+}
+
+.is-red-pcpm {
+    background-color: #C00418 !important;
+}
+
+.is-black-pcpm {
+    background-color: #000000 !important;
+}
+
+.is-grey-pcpm {
+    background-color: #4C4D4A !important;
+}
+
+.is-font-bold-pcpm {
+    font-family: 'Europa_CG_Bold_Regular';
+    font-size: x-large;
+}
+
 #navbar {
     opacity: 0.95;
 }
@@ -70,7 +109,6 @@ a.navbar-item.is-active {
 
 #about {
     .image {
-        max-width: 20vmax;
         margin: auto;
 
         img {
@@ -371,6 +409,8 @@ a.navbar-item.is-active {
     
     -webkit-flex-flow: row wrap;
     justify-content: space-around;
+
+
 }
 
 .sponsors-card {
@@ -396,4 +436,16 @@ a.navbar-item.is-active {
 
 .img-photo-content {
     width: 100%;
+}
+
+.img-member {
+    height: 300px;
+}
+
+.card {
+    margin: 5px;
+}
+
+.has-background-black.card {
+    height: auto;
 }

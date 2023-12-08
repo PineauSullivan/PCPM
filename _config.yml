@@ -18,12 +18,9 @@ site-keywords: Site, Template, Theme
 favicon-url: 
 
 presentations: 
-- Sin autem ad adulescentiam perduxissent, dirimi tamen interdum contentione vel uxoriae condicionis vel commodi alicuius, quod idem adipisci uterque non posset. Quod si qui longius in amicitia provecti essent, tamen saepe labefactari, si in honoris contentionem incidissent; pestem enim nullam maiorem esse amicitiis quam in plerisque pecuniae cupiditatem, in optimis quibusque honoris certamen et gloriae; ex quo inimicitias maximas saepe inter amicissimos exstitisse.
-- Orientis vero limes in longum protentus et rectum ab Euphratis fluminis ripis ad usque supercilia porrigitur Nili, laeva Saracenis conterminans gentibus, dextra pelagi fragoribus patens, quam plagam Nicator Seleucus occupatam auxit magnum in modum, cum post Alexandri Macedonis obitum successorio iure teneret regna Persidis, efficaciae inpetrabilis rex, ut indicat cognomentum.
-- Paphius quin etiam et Cornelius senatores, ambo venenorum artibus pravis se polluisse confessi, eodem pronuntiante Maximino sunt interfecti. pari sorte etiam procurator monetae extinctus est. Sericum enim et Asbolium supra dictos, quoniam cum hortaretur passim nominare, quos vellent, adiecta religione firmarat, nullum igni vel ferro se puniri iussurum, plumbi validis ictibus interemit. et post hoe flammis Campensem aruspicem dedit, in negotio eius nullo sacramento constrictus.
-- Ideoque fertur neminem aliquando ob haec vel similia poenae addictum oblato de more elogio revocari iussisse, quod inexorabiles quoque principes factitarunt. et exitiale hoc vitium, quod in aliis non numquam intepescit, in illo aetatis progressu effervescebat, obstinatum eius propositum accendente adulatorum cohorte.
-- Novitates autem si spem adferunt, ut tamquam in herbis non fallacibus fructus appareat, non sunt illae quidem repudiandae, vetustas tamen suo loco conservanda; maxima est enim vis vetustatis et consuetudinis. Quin in ipso equo, cuius modo feci mentionem, si nulla res impediat, nemo est, quin eo, quo consuevit, libentius utatur quam intractato et novo. Nec vero in hoc quod est animal, sed in iis etiam quae sunt inanima, consuetudo valet, cum locis ipsis delectemur, montuosis etiam et silvestribus, in quibus diutius commorati sumus.
-- Sed (saepe enim redeo ad Scipionem, cuius omnis sermo erat de amicitia) querebatur, quod omnibus in rebus homines diligentiores essent; capras et oves quot quisque haberet, dicere posse, amicos quot haberet, non posse dicere et in illis quidem parandis adhibere curam, in amicis eligendis neglegentis esse nec habere quasi signa quaedam et notas, quibus eos qui ad amicitias essent idonei, iudicarent. Sunt igitur firmi et stabiles et constantes eligendi; cuius generis est magna penuria. Et iudicare difficile est sane nisi expertum; experiendum autem est in ipsa amicitia. Ita praecurrit amicitia iudicium tollitque experiendi potestatem.
+- L’association Poker Club de Pont St Martin  s’est composée autour de 10 personnes.
+- Nous avons monté cette association à partir de discussions lors de nos parties. Voilà près de 6 ans que nous nous réunissons tous les mois et jouons au poker, avec réalisation de gros tournois occasionnels. Ces discussions ont donné lieu à un nouveau pari, celui de créer notre propre association à Pont St Martin, avec organisation entre 4 et 6 tournois par ans.
+- L’association “P.C.P.M.” a donc été créée en septembre 2023 et porte en son nom des valeurs que nous souhaiterions transmettre, en croisant le monde rural avec des évènements festif, conviviaux, intergénérationnel et multiculturel.
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: /assets/images/baniere.jpg
@@ -51,7 +48,8 @@ disqus-shortname: PokerClub.Pont-saint-martin
 # Name of the Author
 author-name: PokerClub.Pont-saint-martin
 # URL for the Image of the Author
-author-image: assets/images/equipe.jpg
+author-image: assets/images/img_pcpm.jpg
+team-image: assets/images/equipe.jpg
 # 60 Words About the Author
 author-about: Ceci est le site officiel du poker club de Pont-Saint-Martin
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)

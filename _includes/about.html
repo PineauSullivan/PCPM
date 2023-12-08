@@ -2,14 +2,15 @@
     <div class="hero-body">
         <div class="container">
             <div class="columns">
-                <div class="column is-one-fifth-desktop is-one-fifth-tablet is-one-fifth-fullhd">
+                <div class="column ">
                     <figure class="image">
-                        <img class="is-rounded" src="{{site.author-image}}" alt="{{site.author-name}}">
+                        <img class="is-rounded" src="{{site.team-image}}" alt="{{site.author-name}}">
                     </figure>
                 </div>
                 <div class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen">
                     {% for presentation in site.presentations %}
                     <p style="text-align: justify;">{{presentation}}</p>
+                </br>
                     {% endfor %}
 
                     <br>
@@ -53,11 +54,13 @@
                 <a href="{{member.link | absolute_url}}">
                   <div class="has-background-black card">
                     <figure  >
-                        <img src="{{member.image}}"/>
+                        <img class="img-member" src="{{member.image}}"/>
                     </figure>
                     <div class="card-content">
                       <h1 class="title has-text-white is-size-4">{{ member.name }}</h1>
-                      <p class="has-text-white has-text-weight-light content">{{ member.description | truncate: 80}}</p>
+                      <p class="has-text-white has-text-weight-light content">Age : {{ member.age | truncate: 80}}</p>
+                      <p class="has-text-white has-text-weight-light content">Métier : {{ member.metier | truncate: 80}}</p>
+                      <p class="has-text-white has-text-weight-light content">Fonction : {{ member.fonction | truncate: 80}}</p>
                     </div>
                   </div>
                 </a>

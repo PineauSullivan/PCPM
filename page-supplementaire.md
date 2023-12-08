@@ -1,5 +1,5 @@
 ---
-title: Page supplémentaire
+title: Page sup
 layout: page
 ---
 
