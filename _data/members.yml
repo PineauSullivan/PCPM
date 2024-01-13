@@ -1,60 +1,60 @@
 - name: Kevin Marais
+  date: '1987-01-01'
   image: assets/images/Kevin_Marais.jpeg
   link: https://www.google.fr/search?q=Kevin+Marais
-  age: 36 ans
   metier: Couvreur
   fonction: Président
 - name: Marchetti Baptiste
+  date: '1995-01-01'
   image: assets/images/Marchetti_Baptiste.jpeg
   link: https://www.google.fr/search?q=Marchetti+Baptiste
-  age: 28 ans
   metier: Informaticien
   fonction: Président
 - name: Boiziot Laetitia
+  date: '1985-01-01'
   image: assets/images/Boiziot_Laetitia.jpg
   link: https://www.google.fr/search?q=Boiziot+Laetitia
-  age: 38 ans
   metier: Gestionnaire de paye
   fonction: Trésorière
 - name: Hammari Mohamed
+  date: '1989-01-01'
   image: assets/images/Hammari_Mohamed.jpg
   link: https://www.google.fr/search?q=Hammari+Mohamed
-  age: 34 ans
   metier: Mécanicien
   fonction: Trésorier
 - name: Boiziot Nicolas
+  date: '1985-01-01'
   image: assets/images/Boiziot_Nicolas.jpeg
   link: https://www.google.fr/search?q=Boiziot+Nicolas
-  age: 38 ans
   metier: Technicien de maintenance
   fonction: Secrétaire
 - name: Guyon Jean-Pierre
+  date: '1985-01-01'
   image: assets/images/Guyon_Jean_pierre.jpeg
   link: https://www.google.fr/search?q=Guyon+Jean+pierre
-  age: 38 ans
   metier: Frigoriste
   fonction: Secrétaire
 - name: Novaes Marcelo
+  date: '1986-01-01'
   image: assets/images/Novaes_Marcelo.jpeg
   link: https://www.google.fr/search?q=Novaes+Marcelo
-  age: 37 ans
   metier: Chef d’entreprise
   fonction: Web designeur
 - name: Covents Armand
+  date: '1996-01-01'
   image: assets/images/Covents_Armand.jpg
   link: https://www.google.fr/search?q=Covents+Armand
-  age: 27 ans
   metier: Peintre automobile
   fonction: Logistique et coordination
 - name: Fonteneau Yves
+  date: '1983-01-01'
   image: assets/images/Fonteneau_Yves.jpeg
   link: https://www.google.fr/search?q=Fonteneau+Yves
-  age: 40 ans
   metier: Mécanicien
   fonction: Logistique et coordination
 - name: Sullivan Pineau
+  date: '1994-05-21'
   image: assets/images/personne.jpg
   link: https://www.pokerstars.fr/
-  age: 29 ans
   metier: Lead developpeur
   fonction: Petite main du site (webmaster)
