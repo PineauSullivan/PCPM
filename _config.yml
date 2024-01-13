@@ -9,7 +9,7 @@ baseurl:
 smalltitle: PCPM
 title: Poker Club Pont-saint-martin
 # Description of the Site
-description: Site de l'association de poker de Pont-Saint-Martin ♠️♦️♥️♣️
+description: PCPM, est une association de pokers à but non-lucratif, créer en 2023 ♠️♦️♥️♣️
 # URL of Image of the Site
 site-image: /PCPM/assets/images/meta.jpg
 # Keywords of the Site
@@ -22,15 +22,12 @@ presentations:
 - Nous avons monté cette association à partir de discussions lors de nos parties. Voilà près de 6 ans que nous nous réunissons tous les mois et jouons au poker, avec réalisation de gros tournois occasionnels. Ces discussions ont donné lieu à un nouveau pari, celui de créer notre propre association à Pont St Martin, avec organisation entre 4 et 6 tournois par ans.
 - L’association “P.C.P.M.” a donc été créée en septembre 2023 et porte en son nom des valeurs que nous souhaiterions transmettre, en croisant le monde rural avec des évènements festif, conviviaux, intergénérationnel et multiculturel.
 
-# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: /assets/images/baniere.jpg
-
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: PokerClub.Pont-saint-martin@gmail.com
-facebook_username: PokerClub.Pont-saint-martin
-twitter_username: PokerClub.Pont-saint-martin
-instagram_username: PokerClub.Pont-saint-martin
+email: PokerPCSM@gmail.com
+facebook_username: 61555311572133
+twitter_username: PokerPCSM
+instagram_username: PokerPCSM
 # linkedin_username: thedevslot
 # github_username:  thedevslot
 # youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
@@ -48,10 +45,11 @@ disqus-shortname: PokerClub.Pont-saint-martin
 # Name of the Author
 author-name: PokerClub.Pont-saint-martin
 # URL for the Image of the Author
-author-image: assets/images/img_pcpm.jpg
+author-image: assets/images/logo_4.jpg
+logo-image: assets/images/logo_3_transparant.png
 team-image: assets/images/equipe.jpg
 # 60 Words About the Author
-author-about: Ceci est le site officiel du poker club de Pont-Saint-Martin
+author-about: Site officiel du poker club de Pont-Saint-Martin
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/PineauSullivan
 

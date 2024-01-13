@@ -1,5 +1,5 @@
-<section class="hero is-fullheight has-text-centered has-background-white-ter" id="about">
-    <div class="hero-body">
+<section class="hero is-fullheight has-text-centered is-black-pcpm" id="about">
+    <div class="hero-body hero-body-about">
         <div class="container">
             <div class="columns">
                 <div class="column ">
@@ -7,7 +7,7 @@
                         <img class="is-rounded" src="{{site.team-image}}" alt="{{site.author-name}}">
                     </figure>
                 </div>
-                <div class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen">
+                <div class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen text-white">
                     {% for presentation in site.presentations %}
                     <p style="text-align: justify;">{{presentation}}</p>
                 </br>
@@ -17,7 +17,7 @@
                     <div class="container columns is-centered">
                         <div>
                             <a href="{{site.url}}{{site.baseurl}}/#contact"
-                                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">Nous contacter</a>
+                                class="button is-rounded is-uppercase has-text-weight-normal is-outlined">Nous contacter</a>
                             </a>
                         </div>
                         <div>
@@ -30,7 +30,11 @@
             </div>
             </br>
             <hr class="has-background-black">
-            <h1 class="title is-size-4-touch">Membres du bureau</h1>
+            <h1 class="title-with-image">
+                <span class="image-container"></span>
+                <span class="text-h1 is-1 is-uppercase has-text-weight-bold title is-size-4-touch text-white">Membres du bureau</span>
+            </h1>
+
             <hr class="has-background-black">
             <div class="sponsors-cards">
                 {% for member in site.data.members %}
@@ -52,8 +56,8 @@
                 id="project-card">
                  <!--        <a href="{{project.link | absolute_url}}" target="_blank" > -->
                 <a href="{{member.link | absolute_url}}">
-                  <div class="has-background-black card">
-                    <figure  >
+                  <div class="has-background-red card">
+                    <figure>
                         <img class="img-member" src="{{member.image}}"/>
                     </figure>
                     <div class="card-content">

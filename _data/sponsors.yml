@@ -2,30 +2,3 @@
   image: assets/images/pont_saint_martin.jpg
   link: https://www.mairie-pontsaintmartin.fr/
   width: 100%
-- name: Winamax
-  image: assets/images/Winamax_Logo.png
-  link: https://www.winamax.fr/
-  width: 49%
-
-- name: Winamax
-  image: https://operator-front-static-cdn.winamax.fr/img/content/poker/2022/20220412_logo_winamax/LogoWinamax2022_v2.png
-  link: https://www.winamax.fr/
-  width: 49%
-
-- name: Winamax
-  image: assets/images/Winamax_Logo.png
-  link: https://www.winamax.fr/
-  width: 20%
-  
-- name: Poker stars
-  image: assets/images/poker_stars.jpeg
-  link: https://www.pokerstars.fr/
-  width: 20%
-- name: Winamax
-  image: https://operator-front-static-cdn.winamax.fr/img/content/poker/2022/20220412_logo_winamax/LogoWinamax2022_v2.png
-  link: https://www.winamax.fr/
-  width: 20%
-- name: Poker stars
-  image: assets/images/poker_stars.jpeg
-  link: https://www.pokerstars.fr/
-  width: 20%

@@ -5,6 +5,9 @@
         <div class="navbar-brand">
             <a class="navbar-item is-red-pcpm-text is-font-bold-pcpm"
                 href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
+                
+                <img class="navbar-logo" src="{{site.logo-image}}" alt="{{site.smalltitle}}">
+
                 <strong>{{site.smalltitle}}</strong>
             </a>
             <div class="navbar-burger" data-target="navbar-menu">
