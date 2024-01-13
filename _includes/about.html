@@ -61,7 +61,7 @@
                         <img class="img-member" src="{{member.image}}"/>
                     </figure>
                     <div class="card-content">
-                      <h1 class="title has-text-white is-size-4">{{ member.name }}</h1>
+                      <h1 class="title has-text-black is-size-4">{{ member.name }}</h1>
                       {% assign birthdate_parts = member.date | split: "-" %}
                       {% assign today_parts = site.time | date: "%Y-%m-%d" | split: "-" %}
                       

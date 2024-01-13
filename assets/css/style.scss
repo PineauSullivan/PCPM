@@ -517,3 +517,14 @@ a.navbar-item.is-active {
 .title-event {
     margin-top: 40px;
 }
+
+div#blog-card {
+    background-image: url('../images/event_background.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.has-text-red {
+    color:#C00418;
+}

@@ -16,8 +16,8 @@
                             </figure>
                         </div>
                         <div class="column is-marginless">
-                            <h5 class="has-text-grey-lighter">{{site.author-name}}</h5>
-                            <div class="content has-text-grey">
+                            <h5 class="has-text-red">{{site.author-name}}</h5>
+                            <div class="content has-text-white">
                                 <p>{{site.author-about | truncate: 75 }}</p>
                             </div>
                         </div>
@@ -27,11 +27,11 @@
 
             <!--Link Section-->
             <div class="column has-text-white">
-                <h3>Plus de liens</h3>
+                <h3 class="has-text-red">Plus de liens</h3>
                 {% for sitepage in site.html_pages offset: 4 %}
                 {% unless sitepage.url == '/'  limit: 2 %}
                 <li>
-                    <a href="{{sitepage.url | absolute_url}}">{{sitepage.title}}</a>
+                    <a class="has-text-white" href="{{sitepage.url | absolute_url}}">{{sitepage.title}}</a>
                 </li>
                 {% endunless %}
                 {% endfor %}
@@ -45,16 +45,16 @@
 
             <!--Blog-post Section-->
             <div class="column has-text-white">
-                <h3>Publications récents</h3>
+                <h3 class="has-text-red">Publications récents</h3>
                 {% for post in site.posts offset: 0 limit:3 %}
                 <li>
-                    <a href="{{post.url | absolute_url}}">{{post.title}}</a>
+                    <a class="has-text-white" href="{{post.url | absolute_url}}">{{post.title}}</a>
                 </li>
                 {% endfor %}
             </div>
         </div>
     </div>
     <div class="has-background-black has-text-centered has-text-white" id="credits">
-        <i class="far fa-copyright"></i> {{ "now" | date: "%Y" }}
+        <i class="far fa-copyright"></i> {{ "now" | date: "%Y" }} - <a class="has-text-white" href="https://github.com/PineauSullivan/PCPM">Créé par Sullivan</a>
     </div>
 </footer>
