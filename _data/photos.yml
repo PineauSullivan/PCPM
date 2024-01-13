@@ -1,5 +1,7 @@
 - name: PCPM
   image: assets/images/img_pcpm.jpg
+- name: Team
+  image: assets/images/equipe.jpg
 - name: Winamax
   image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Winamax_Logo.svg/1200px-Winamax_Logo.svg.png
   link: test-page
