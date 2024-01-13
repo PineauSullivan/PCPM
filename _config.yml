@@ -45,7 +45,7 @@ disqus-shortname: PokerPCSM
 # Name of the Author
 author-name: PokerPCSM
 # URL for the Image of the Author
-author-image: assets/images/logo_4.jpg
+author-image: https://pineausullivan.github.io/PCPM/assets/images/logo_4.jpg
 logo-image: https://pineausullivan.github.io/PCPM/assets/images/logo_3_transparant.png
 team-image: assets/images/equipe.jpg
 # 60 Words About the Author
