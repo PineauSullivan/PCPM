@@ -9,7 +9,7 @@
   image: assets/images/Marchetti_Baptiste.jpeg
   link: https://www.google.fr/search?q=Marchetti+Baptiste
   metier: Informaticien
-  fonction: Président
+  fonction: Logistique et coordination
 - name: Boiziot Laetitia
   date: '1985-01-01'
   image: assets/images/Boiziot_Laetitia.jpg
@@ -21,7 +21,7 @@
   image: assets/images/Hammari_Mohamed.jpg
   link: https://www.google.fr/search?q=Hammari+Mohamed
   metier: Mécanicien
-  fonction: Trésorier
+  fonction: Logistique et coordination
 - name: Boiziot Nicolas
   date: '1985-01-01'
   image: assets/images/Boiziot_Nicolas.jpeg
@@ -33,7 +33,7 @@
   image: assets/images/Guyon_Jean_pierre.jpeg
   link: https://www.google.fr/search?q=Guyon+Jean+pierre
   metier: Frigoriste
-  fonction: Secrétaire
+  fonction: Logistique et coordination
 - name: Novaes Marcelo
   date: '1986-01-01'
   image: assets/images/Novaes_Marcelo.jpeg
