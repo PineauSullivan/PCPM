@@ -52,6 +52,12 @@
   link: https://www.google.fr/search?q=Fonteneau+Yves
   metier: Mécanicien
   fonction: Logistique et coordination
+- name: Mathieu Riffaut
+  date: '1990-01-01'
+  image: assets/images/personne.jpeg
+  link: https://www.google.fr/search?q=Riffaut+Mathieu
+  metier: Peintre automobile
+  fonction: Logistique et coordination
 - name: Sullivan Pineau
   date: '1994-05-21'
   image: assets/images/personne.jpg
