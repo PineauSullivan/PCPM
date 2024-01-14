@@ -4,49 +4,49 @@
   link: https://www.google.fr/search?q=Kevin+Marais
   metier: Couvreur
   fonction: Président
-- name: Marchetti Baptiste
+- name: Baptiste Marchetti
   date: '1995-01-01'
   image: assets/images/Marchetti_Baptiste.jpeg
   link: https://www.google.fr/search?q=Marchetti+Baptiste
   metier: Informaticien
   fonction: Logistique et coordination
-- name: Boiziot Laetitia
+- name: Laetitia Boiziot
   date: '1985-01-01'
   image: assets/images/Boiziot_Laetitia.jpg
   link: https://www.google.fr/search?q=Boiziot+Laetitia
   metier: Gestionnaire de paye
   fonction: Trésorière
-- name: Hammari Mohamed
+- name: Mohamed Hammari
   date: '1989-01-01'
   image: assets/images/Hammari_Mohamed.jpg
   link: https://www.google.fr/search?q=Hammari+Mohamed
   metier: Mécanicien
   fonction: Logistique et coordination
-- name: Boiziot Nicolas
+- name: Nicolas Boiziot
   date: '1985-01-01'
   image: assets/images/Boiziot_Nicolas.jpeg
   link: https://www.google.fr/search?q=Boiziot+Nicolas
   metier: Technicien de maintenance
   fonction: Secrétaire
-- name: Guyon Jean-Pierre
+- name: Jean-Pierre Guyon
   date: '1985-01-01'
   image: assets/images/Guyon_Jean_pierre.jpeg
   link: https://www.google.fr/search?q=Guyon+Jean+pierre
   metier: Frigoriste
   fonction: Logistique et coordination
-- name: Novaes Marcelo
+- name: Marcelo Novaes
   date: '1986-01-01'
   image: assets/images/Novaes_Marcelo.jpeg
   link: https://www.google.fr/search?q=Novaes+Marcelo
   metier: Chef d’entreprise
   fonction: Web designeur
-- name: Covents Armand
+- name: Armand Covents
   date: '1996-01-01'
   image: assets/images/Covents_Armand.jpg
   link: https://www.google.fr/search?q=Covents+Armand
   metier: Peintre automobile
   fonction: Logistique et coordination
-- name: Fonteneau Yves
+- name: Yves Fonteneau
   date: '1983-01-01'
   image: assets/images/Fonteneau_Yves.jpeg
   link: https://www.google.fr/search?q=Fonteneau+Yves
