@@ -2,6 +2,46 @@
   image: assets/images/img_pcpm.jpg
 - name: Team
   image: assets/images/equipe.jpg
+- name: Tournois 2k23 - 1
+  image: assets/images/974011eb-dfe4-490d-8ad1-accd62f366bd.jpeg
+- name: Tournois 2k23 - 2
+  image: assets/images/dd98e5f5-e5ad-49f2-a734-6386bf70d20b.jpeg
+- name: Tournois 2k23 - 3
+  image: assets/images/89942ec1-58b6-4fc7-9dc6-f60cf431b40b.jpeg
+- name: Tournois 2k23 - 4
+  image: assets/images/35db1c68-ad91-4ed2-87da-30c9ce988a76.jpeg
+- name: Tournois 2k23 - 4bis
+  image: assets/images/89942ec1-58b6-4fc7-9dc6-f60cf431b40b.jpeg
+- name: Tournois 2k23 - 5
+  image: assets/images/1149c34c-7abc-404d-a293-18d56794ab6e.jpeg
+- name: Tournois 2k23 - 6
+  image: assets/images/15800c46-9d18-4e53-9193-cd136ec78ecb.jpeg
+- name: Tournois 2k23 - 7
+  image: assets/images/1e8c1b00-9ed0-4c63-a639-935117ad65b9.jpeg
+- name: Tournois 2k23 - 8
+  image: assets/images/2f3609b5-afb2-49b7-990a-5afeab0490ed.jpeg
+- name: Tournois 2k23 - 9
+  image: assets/images/3375e7ef-37db-4df6-8a0a-06c49f92fd69.jpeg
+- name: Tournois 2k23 - 10
+  image: assets/images/393b6c49-13eb-4dd7-b952-3c91ecd185a8.jpeg
+- name: Tournois 2k23 - 11
+  image: assets/images/598ff24f-a50d-40fc-b9e6-55c15a051975.jpeg
+- name: Tournois 2k23 - 14
+  image: assets/images/9df1f5fa-379d-48fc-b3c0-43c95513d8bf.jpeg
+- name: Tournois 2k23 - 15
+  image: assets/images/a4563d7c-3f75-42c8-8893-c86192ef7f82.jpeg
+- name: Tournois 2k23 - 16
+  image: assets/images/aff1b202-2121-4229-8959-232be201d4d6.jpeg
+- name: Tournois 2k23 - 17
+  image: assets/images/b663cfcd-6bec-4563-b025-afdddb6947b5.jpeg
+- name: Tournois 2k23 - 18
+  image: assets/images/be61477d-4bc5-41d9-bbc4-be4d6dbe8f57.jpeg
+- name: Tournois 2k23 - 19
+  image: assets/images/c30adf61-1567-4d5a-82fe-26245e5b2ff3.jpeg
+- name: Tournois 2k23 - 20
+  image: assets/images/f6faf588-c957-4c83-a9f4-ce9e9b016cff.jpeg
+- name: Tournois 2k23 - 21
+  image: assets/images/fa84e2b5-6c48-4051-9b40-f6fb58d20bb7.jpeg
 - name: Winamax
   image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Winamax_Logo.svg/1200px-Winamax_Logo.svg.png
   link: test-page
