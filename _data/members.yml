@@ -1,66 +1,66 @@
 - name: Kevin Marais
   date: '1987-01-01'
-  image: assets/images/Kevin_Marais.jpeg
+  image: assets/images/membres/Kevin_Marais.jpg
   link: https://www.google.fr/search?q=Kevin+Marais
   metier: Couvreur
   fonction: Président
 - name: Baptiste Marchetti
   date: '1995-01-01'
-  image: assets/images/Marchetti_Baptiste.jpeg
+  image: assets/images/membres/Marchetti_Baptiste.jpg
   link: https://www.google.fr/search?q=Marchetti+Baptiste
   metier: Informaticien
   fonction: Logistique et coordination
 - name: Laetitia Boiziot
   date: '1985-01-01'
-  image: assets/images/Boiziot_Laetitia.jpg
+  image: assets/images/membres/Boiziot_Laetitia.jpg
   link: https://www.google.fr/search?q=Boiziot+Laetitia
   metier: Gestionnaire de paye
   fonction: Trésorière
 - name: Mohamed Hammari
   date: '1989-01-01'
-  image: assets/images/Hammari_Mohamed.jpg
+  image: assets/images/membres/Hammari_Mohamed.jpg
   link: https://www.google.fr/search?q=Hammari+Mohamed
   metier: Mécanicien
   fonction: Logistique et coordination
 - name: Nicolas Boiziot
   date: '1985-01-01'
-  image: assets/images/Boiziot_Nicolas.jpeg
+  image: assets/images/membres/Boiziot_Nicolas.jpg
   link: https://www.google.fr/search?q=Boiziot+Nicolas
   metier: Technicien de maintenance
   fonction: Secrétaire
 - name: Jean-Pierre Guyon
   date: '1985-01-01'
-  image: assets/images/Guyon_Jean_pierre.jpeg
+  image: assets/images/membres/Guyon_Jean_pierre.jpg
   link: https://www.google.fr/search?q=Guyon+Jean+pierre
   metier: Frigoriste
   fonction: Logistique et coordination
 - name: Marcelo Novaes
   date: '1986-01-01'
-  image: assets/images/Novaes_Marcelo.jpeg
+  image: assets/images/membres/Novaes_Marcelo.jpg
   link: https://www.google.fr/search?q=Novaes+Marcelo
   metier: Chef d’entreprise
   fonction: Web designeur
 - name: Armand Covents
   date: '1996-01-01'
-  image: assets/images/Covents_Armand.jpg
+  image: assets/images/membres/Covents_Armand.jpg
   link: https://www.google.fr/search?q=Covents+Armand
   metier: Peintre automobile
   fonction: Logistique et coordination
 - name: Yves Fonteneau
   date: '1983-01-01'
-  image: assets/images/Fonteneau_Yves.jpeg
+  image: assets/images/membres/Fonteneau_Yves.jpg
   link: https://www.google.fr/search?q=Fonteneau+Yves
   metier: Mécanicien
   fonction: Logistique et coordination
 - name: Mathieu Riffaut
   date: '1990-01-01'
-  image: assets/images/Mathieu.JPG
+  image: assets/images/membres/Riffaut_Mathieu.jpg
   link: https://www.google.fr/search?q=Riffaut+Mathieu
   metier: Peintre automobile
   fonction: Logistique et coordination
 - name: Sullivan Pineau
   date: '1994-05-21'
-  image: assets/images/personne.jpg
+  image: assets/images/membres/personne.jpg
   link: https://www.linkedin.com/in/sullivanpineau
   metier: Lead developpeur
   fonction: As du site web
