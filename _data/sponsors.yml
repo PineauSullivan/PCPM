@@ -1,4 +1,8 @@
 - name: Pont Saint Martin
   image: assets/images/pont_saint_martin.jpg
   link: https://www.mairie-pontsaintmartin.fr/
-  width: 100%
+  width: 49%
+- name: Cartes-production
+  image: assets/images/cartes-production.JPG
+  link: https://www.cartes-production.com/
+  width: 49%
