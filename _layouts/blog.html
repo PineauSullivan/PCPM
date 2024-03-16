@@ -8,11 +8,14 @@ layout: compress
 {% include head.html %}
 
 <body>
+    <div class="bandeau-pcpm is-font-pcpm-Montserrat-regular-x-small">
+        <p>{{site.message-bandeau.text}}</p>
+      </div>
     {% include navbar.html %}
 
     <section class="hero is-fullheight" id="blog">
         <div class="hero-body">
-            <div class="container">
+            <div class="container container-pcpm-other">
                 {% include blogpage-heading.html %}
             </div>
         </div>

@@ -1,12 +1,12 @@
 <div class="navbar-item has-dropdown is-hoverable">
-    <a class="navbar-link is-red-pcpm-text is-font-bold-pcpm">
+    <a class="navbar-link is-red-pcpm-text is-font-pcpm-Montserrat-bold-large">
         Plus
     </a>
     <div class="navbar-dropdown is-black-pcpm is-left">
         {% for sitepage in site.html_pages %}
         {% unless sitepage.url == '/' or sitepage.url == '/404'  or sitepage.url == '/blog' %}
         <a href="{{sitepage.url | absolute_url}}"
-            class="navbar-item has-text-grey-light is-red-pcpm-text is-font-bold-pcpm {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">
+            class="navbar-item has-text-grey-light is-red-pcpm-text is-font-pcpm-Montserrat-bold-large {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">
             {{sitepage.title}}
         </a>
         {% endunless %}

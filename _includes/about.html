@@ -1,83 +1,86 @@
 <section class="hero is-fullheight has-text-centered is-black-pcpm" id="about">
     <div class="hero-body hero-body-about">
         <div class="container">
+            <h1 class="title-with-image-pcpm">
+                <img src="../assets/images/Titre_association.svg"/>
+            </h1>
             <div class="columns">
-                <div class="column ">
-                    <figure class="image">
-                        <img class="is-rounded" src="{{site.team-image}}" alt="{{site.author-name}}">
-                    </figure>
-                </div>
+               
                 <div class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen text-white">
                     {% for presentation in site.presentations %}
-                    <p style="text-align: justify;">{{presentation}}</p>
-                </br>
+                        <p style="text-align: justify;">{{presentation}}</p>
+                        </br>
                     {% endfor %}
 
                     <br>
                     <div class="container columns is-centered">
                         <div>
                             <a href="{{site.url}}{{site.baseurl}}/#contact"
-                                class="button is-rounded is-uppercase has-text-weight-normal is-outlined">Nous contacter</a>
+                                class="button is-uppercase has-text-weight-normal background-red is-white-pcpm-text border-radius-zero">Nous contacter</a>
                             </a>
                         </div>
                         <div>
-                            <!-- <a href="{{site.url}}{{site.baseurl}}/blog"
-                                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">Blog</a>
-                            </a> -->
                         </div>
                     </div>
                 </div>
+                <div class="column ">
+                    <figure class="image">
+                        <img src="{{site.team-image}}" alt="{{site.author-name}}">
+                    </figure>
+                </div>
             </div>
             </br>
-            <hr class="has-background-black">
-            <h1 class="title-with-image">
-                <span class="image-container"></span>
-                <span class="text-h1 is-1 is-uppercase has-text-weight-bold title is-size-4-touch text-white">Bureau</span>
+
+            <div class="division-asso-bureau">
+                <img class="image-division-asso-bureau" src="../assets/images/Motif_demi_horizontal.svg"/>
+                <hr class="has-background-black motif-horizontal">
+            </div>
+
+            <h1 class="title-with-image-pcpm">
+                <img src="../assets/images/Titre_Bureau.svg"/>
             </h1>
 
-            <hr class="has-background-black">
-            <div class="sponsors-cards">
-                {% for member in site.data.members %}
-                <!-- <div class="sponsors-card" style="width: {{member.width}};">
-                    <a href="{{member.link | absolute_url}}">
-                    <div 
-                    class="has-background-blackk"
-                    >
-                        <figure  >
-                            <img src="{{member.image}}"/>
-                        </figure>
-                        <div class="card-content">
-                        <h1 class="title has-text-black is-size-4">{{ member.name }}</h1>
+            <div class="columns">
+               
+                <div class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen text-white">
+                    
+                    <div class="sponsors-cards">
+                        {% for member in site.data.members %}
+                        <div class="column has-text-centered is-marginless"
+                            id="project-card">
+                            <div class="has-background-red card">
+                                <figure>
+                                    <img class="img-member" src="{{member.image}}"/>
+                                </figure>
+                                <div class="card-content">
+                                <h1 class="title has-text-black is-size-4">{{ member.name }}</h1>
+                                {% assign birthdate_parts = member.date | split: "-" %}
+                                {% assign today_parts = site.time | date: "%Y-%m-%d" | split: "-" %}
+                                
+                                {% assign age = today_parts[0] | minus: birthdate_parts[0] %}
+                                
+                                {% if today_parts[1] < birthdate_parts[1] or (today_parts[1] == birthdate_parts[1] and today_parts[2] < birthdate_parts[2]) %}
+                                    {% assign age = age | minus: 1 %}
+                                {% endif %}
+                                <p class="has-text-white has-text-weight-light content">Age : {{ age | truncate: 80}} ans</p>
+                                <p class="has-text-white has-text-weight-light content">Métier : {{ member.metier | truncate: 80}}</p>
+                                <p class="has-text-white has-text-weight-light content">Fonction : {{ member.fonction | truncate: 80}}</p>
+                                </div>
+                            </div>
                         </div>
+                    {% endfor %}
+                </div>
+                </div>
+                <div class="column column-mot-du-president background-red is-white-pcpm-text">
+                    <div class="is-uppercase has-text-weight-bold is-white-pcpm-text title-mot-du-president is-font-pcpm-Montserrat-regular-x-large">le mot du président</div>
+                    <hr class="has-background-grey-pcpm hr-mot-du-president">
+                    <div class="content-mot-du-president">
+                        {% for mot in site.mot-du-president %}
+                        <p style="text-align: justify;">{{mot}}</p>
+                        </br>
+                        {% endfor %}
                     </div>
-                    </a>
-                </div> -->
-                <div class="column has-text-centered is-marginless is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch"
-                id="project-card">
-                 <!--        <a href="{{project.link | absolute_url}}" target="_blank" > -->
-                <a href="{{member.link | absolute_url}}">
-                  <div class="has-background-red card">
-                    <figure>
-                        <img class="img-member" src="{{member.image}}"/>
-                    </figure>
-                    <div class="card-content">
-                      <h1 class="title has-text-black is-size-4">{{ member.name }}</h1>
-                      {% assign birthdate_parts = member.date | split: "-" %}
-                      {% assign today_parts = site.time | date: "%Y-%m-%d" | split: "-" %}
-                      
-                      {% assign age = today_parts[0] | minus: birthdate_parts[0] %}
-                      
-                      {% if today_parts[1] < birthdate_parts[1] or (today_parts[1] == birthdate_parts[1] and today_parts[2] < birthdate_parts[2]) %}
-                          {% assign age = age | minus: 1 %}
-                      {% endif %}
-                      <p class="has-text-white has-text-weight-light content">Age : {{ age | truncate: 80}} ans</p>
-                      <p class="has-text-white has-text-weight-light content">Métier : {{ member.metier | truncate: 80}}</p>
-                      <p class="has-text-white has-text-weight-light content">Fonction : {{ member.fonction | truncate: 80}}</p>
-                    </div>
-                  </div>
-                </a>
-              </div>
-                {% endfor %}
+                </div>
             </div>
         </div>
 </section>

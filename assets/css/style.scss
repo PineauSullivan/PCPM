@@ -4,13 +4,33 @@
 @import "main.scss";
 
 @font-face {
-    font-family: Europa_CG_Bold_Regular;
-    src: url("Europa_CG_Bold_Regular.otf") format("opentype");
+    font-family: Europa_CG;
+    src: url("ufonts.com_cgeuropabd.ttf") format("opentype");
 }
 
 @font-face {
     font-family: Montserrat_Light;
     src: url("Montserrat_Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Montserrat_Bold;
+    src: url("Montserrat-Bold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Montserrat_Regular;
+    src: url("Montserrat-Regular.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Montserrat_SemiBold;
+    src: url("Montserrat-SemiBold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Montserrat_Medium;
+    src: url("Montserrat-Medium.ttf") format("opentype");
 }
 
 .is-red-pcpm-text {
@@ -41,9 +61,53 @@
     background-color: #4C4D4A !important;
 }
 
-.is-font-bold-pcpm {
-    font-family: 'Europa_CG_Bold_Regular';
+.is-font-bold-europa-cg-pcpm {
+    font-family: 'Europa_CG';
     font-size: x-large;
+}
+
+.is-font-pcpm-Montserrat-bold-large {
+    font-family: 'Montserrat_Bold';
+    font-size: large;
+}
+
+.is-font-pcpm-Montserrat-semibold-large {
+    font-family: 'Montserrat_SemiBold';
+    font-size: large;
+}
+
+.is-font-pcpm-Montserrat-regular-large {
+    font-family: 'Montserrat_Regular';
+    font-size: large;
+}
+.is-font-pcpm-Montserrat-regular-x-large {
+    font-family: 'Montserrat_Regular';
+    font-size: x-large;
+}
+
+.is-font-pcpm-Montserrat-regular-small {
+    font-family: 'Montserrat_Regular';
+    font-size: small;
+}
+
+.is-font-pcpm-Montserrat-regular-medium {
+    font-family: 'Montserrat_Regular';
+    font-size: medium;
+}
+
+.is-font-pcpm-Montserrat-regular-x-small {
+    font-family: 'Montserrat_Regular';
+    font-size: x-small;
+}
+
+.is-font-pcpm-europa-cg-xx-large {
+    font-family: 'Europa_CG';
+    font-size: xx-large;
+}
+
+.is-font-pcpm-Montserrat-medium-large {
+    font-family: 'Montserrat_Medium';
+    font-size: large;
 }
 
 #navbar {
@@ -72,7 +136,7 @@ a.navbar-item.is-active {
 
     &:hover {
         background-color: rgba($color: #fff, $alpha: 0.25) !important;
-        color: grey;
+        color: white;
     }
 }
 
@@ -89,8 +153,7 @@ a.navbar-item.is-active {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
 
     &::before {
-        filter: blur(0.15rem);
-        background-image: url(../images/logo_1.jpg);
+        background-image: url(../images/background_accueil_avec_logo.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -100,7 +163,7 @@ a.navbar-item.is-active {
         bottom: 0px;
         left: 0px;
         position: absolute;
-        opacity: 0.25;
+        opacity: 1;
         content: "";
     }
 }
@@ -131,7 +194,6 @@ a.navbar-item.is-active {
         display: flex;
         justify-content: center;
     }
-
     svg {
         transition: all 0.15s ease-in-out;
         margin: auto 0.75vmax;
@@ -457,11 +519,22 @@ a.navbar-item.is-active {
 .has-background-black-pcpm {
     background-color: #000000;
 }
+.has-background-grey-pcpm {
+    background-color: #4C4D4A;
+}
 
 .has-background-red.card {
     background-color: #C00418;
     height: auto;
     border-radius: 10px;
+}
+
+.title-with-image-pcpm {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 60px;
 }
 
 .title-with-image {
@@ -527,4 +600,103 @@ div#blog-card {
 
 .has-text-red {
     color:#C00418;
+}
+
+.navbar-item-tournois {
+    background-color: #c00418;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container-pcpm {
+    margin-bottom: 80px;
+    margin-top: auto;
+}
+
+.bouton-margin-top {
+    margin-top: 5px;
+}
+
+.background-red {
+    background-color: #c00418;
+}
+
+.column-mot-du-president {
+    margin-top: 0px;
+    background-color: #c00418;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.border-radius-zero {
+    border-radius: 0px;
+}
+
+.bandeau-pcpm {
+    background-color: #c00418; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    width: 100%; /* Largeur totale */
+    position: fixed; /* Fixe le bandeau en haut */
+    top: 0; /* Position en haut */
+    left: 0; /* Position à gauche */
+    z-index: 1000; /* Indice de profondeur pour s'assurer que le bandeau est au-dessus du reste du contenu */
+    height: 20px;
+    text-align: center;
+}
+
+.navbar.is-fixed-top {
+    top: 20px;
+}
+
+.title-mot-du-president {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.content-mot-du-president {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contact-a:hover {
+    color: white;
+}
+
+section#sponsors {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+section#contact {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.container-pcpm-other {
+    top: 50px;
+
+}
+
+div#results-container {
+    margin-top: 10px;
+}
+
+.motif-horizontal{
+    margin-top: -6px;
+}
+
+.division-asso-bureau {
+    text-align: right;
+}
+
+.image-division-asso-bureau {
+    margin-right: 15%;
+}
+
+.hr-mot-du-president {
+    height: 8px;
+    margin-left: -25px;
+    width: 33%;
 }

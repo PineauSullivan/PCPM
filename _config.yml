@@ -9,7 +9,7 @@ baseurl:
 smalltitle: PCPM
 title: Poker Club Pont-saint-martin
 # Description of the Site
-description: PCPM, est une association de pokers à but non-lucratif, créer en 2023 ♠️♦️♥️♣️
+description: PCPM, est une association qui organise des tournois de pokers à but non-lucratif, créer en 2023.
 # URL of Image of the Site
 site-image: /PCPM/assets/images/meta.jpg
 # Keywords of the Site
@@ -19,12 +19,13 @@ favicon-url:
 
 presentations: 
 - L’association Poker Club de Pont St Martin  s’est composée autour de 10 personnes.
-- Nous avons monté cette association à partir de discussions lors de nos parties. Voilà près de 6 ans que nous nous réunissons tous les mois et jouons au poker, avec réalisation de gros tournois occasionnels. Ces discussions ont donné lieu à un nouveau pari, celui de créer notre propre association à Pont St Martin, avec organisation entre 4 et 6 tournois par ans.
+- Nous avons monté cette association à partir de discussions lors de nos parties. Voilà près de 6 ans que nous nous réunissons tous les mois et jouons au poker, avec réalisation de gros tournois occasionnels. Ces discussions ont donné lieu à un nouveau pari, celui de créer notre propre association à Pont St Martin, avec organisation de 4 à 6 tournois par an.
 - L’association “P.C.P.M.” a donc été créée en septembre 2023 et porte en son nom des valeurs que nous souhaiterions transmettre, en croisant le monde rural avec des évènements festif, conviviaux, intergénérationnel et multiculturel.
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: contact@pokerpcpm.fr
+telephone: 06 01 14 02 78
 facebook_username: 61555311572133
 # twitter_username: 
 instagram_username: pcpm44860
@@ -45,9 +46,18 @@ disqus-shortname:
 # Name of the Author
 author-name: PokerPCSM
 # URL for the Image of the Author
-author-image: https://pineausullivan.github.io/PCPM/assets/images/logo_4.jpg
-logo-image: https://pineausullivan.github.io/PCPM/assets/images/logo_3_transparant.png
-team-image: assets/images/equipe.jpg
+author-image: https://pokerpcpm.fr/assets/images/logo_4.jpg
+logo-image: https://pokerpcpm.fr/assets/images/logo_menu_pcpm.svg
+team-image: assets/images/Photo_assotioation_bureau_mars_2023.svg
+message-bandeau: 
+  text: Prochain tournoi le 22 Juin 2024 > Places limitées > Prochainement
+  lien: /
+mot-du-president: 
+  - ‘‘Ensemble, réalisons nos objectifs’’
+  - Chers amis, en tant que président de cette association, je suis ravi de vous annoncer la création de PCPM. Nous, nous réjouissons de la force et de l’énergie que vous allez apporter à notre communauté. Votre engagement témoigne de votre soutien de nos valeurs et à participer à notre projet associatif. Vous rejoignez une association qui est un pilier essentiel dans la vie de notre localité, et je suis convaincu que votre contribution sera déterminante pour notre avenir commun.
+  - Chers partenaires, je tiens à exprimer notre gratitude pour votre dévouement et votre passion. Vous serez le cœur battant de notre association, la source de notre énergie, de notre résilience et de notre développement. Sans vous, notre association ne pourrait pas accomplir sa mission. Votre travail, votre enthousiasme et votre générosité sont une source d’inspiration pour nous tous. Au nom de tous les membres, je vous adresse un grand merci.
+  - Dernière chose, la priorité est l’esprit collectif, essentielle dans le monde associatif, signifiant que nous sommes tous bénévoles, et que chacun peut être acteur s’il le souhaite. Respect, Convivialité, Excellence, Responsabilité, Transparence, Intégrité sont des valeurs qui me sont chères et que je souhaite partager tous ensemble. 
+
 # 60 Words About the Author
 author-about: Site officiel du poker club de Pont-Saint-Martin
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
