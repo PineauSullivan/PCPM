@@ -16,8 +16,9 @@ layout: compress
   {% include navbar.html %}
 
   <section class="hero is-fullheight has-text-centered" id="post">
-    <div class="hero-body">
-      <div class="container">
+    <div class="hero-body container-post">
+      <div class="container ">
+        <!--
         <div class="title-event">
           <a href="{{page.url | relative_url}}" class="has-text-black" id="title">
             <h1 class="title-with-image">
@@ -29,6 +30,7 @@ layout: compress
         <p class="subtitle is-6 is-uppercase has-text-weight-normal has-text-black-ter">Date de l'événement : <b>{{ page.datee }}</b></p>
 
         <hr class="has-background-black">
+        -->
         <div class="columns is-variable is-5">
           <div class="column is-6">
             <figure class="image is-16by9 has-shadow">
@@ -75,11 +77,13 @@ layout: compress
         <i>Si vous préférez, vous pouvez directement accéder au formulaire d'inscription en cliquant <a href="{{ page.lien-banque }}">ici</a>.</i>
       </br>
       -->
-        <a href="{{ page.lien-banque }}">
-          <h1 class="title-with-image">
-            <span class="image-container"></span>
-            <span class="text-h1 is-1 is-uppercase has-text-weight-bold title is-size-4-touch text-black">Cliquez ici pour vous inscrire</span>
-          </h1>
+    
+        <a class="is-white-pcpm-text is-font-pcpm-Montserrat-bold-large {% if page.layout == 'blog' %}is-active{% endif %}"
+        href="{{ page.lien-banque }}">
+            <div class="navbar-item-post-link is-uppercase">
+                <i class="fas fa-sign"></i>
+                Cliquez ici pour vous inscrire
+            </div>
         </a>
         {%- endunless -%}
 
