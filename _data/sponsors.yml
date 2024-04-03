@@ -1,8 +1,56 @@
-- name: Pont Saint Martin
-  image: assets/images/pont_saint_martin.jpg
-  link: https://www.mairie-pontsaintmartin.fr/
+- name: Kerstic
+  image: assets/images/Partenaire_01_KERSTIC.svg
+  link: https://www.kerstic.com/
+  width: 49%
+- name: Aumera
+  image: assets/images/Partenaire_02_AUMERA.svg
+  link: https://www.aumera.fr/
+  width: 49%
+- name: Calinsia
+  image: assets/images/Partenaire_03_CALINSIA.svg
+  link: https://loveroomnantes.fr/
+  width: 49%
+- name: Athelé
+  image: assets/images/Partenaire_04_AC.svg
+  link: https://www.athele-couvreur-zingueur.fr/
+  width: 49%
+- name: Training factory
+  image: assets/images/Partenaire_05_TRAINING.svg
+  link: https://www.trainingfactory44.fr/
+  width: 49%
+- name: CSL Automobiles
+  image: assets/images/Partenaire_06_CSL.svg
+  link: https://cslautomobiles.fr/
+  width: 49%
+- name: LEPRALIN
+  image: assets/images/Partenaire_07_LEPRALIN.svg
+  link: /
+  width: 49%
+- name: LE42
+  image: assets/images/Partenaire_08_LE42.svg
+  link: /
+  width: 49%
+- name: COIFFURESAINTMARTIN
+  image: assets/images/Partenaire_09_COIFFURESAINTMARTIN.svg
+  link: /
+  width: 49%
+- name: Aume élec
+  image: assets/images/Partenaire_10_AUMEELEC.svg
+  link: https://www.facebook.com/people/AUME-ELEC/100041995063868/
+  width: 49%
+- name: MAISONCHOBLET
+  image: assets/images/Partenaire_11_MAISONCHOBLET.svg
+  link: https://www.traiteur-choblet.fr/
+  width: 49%
+- name: Famille Mary
+  image: assets/images/Partenaire_12_FAMILLEMARY.svg
+  link: https://www.famillemary.fr/
   width: 49%
 - name: Cartes-production
   image: assets/images/cartes-production.JPG
   link: https://www.cartes-production.com/
+  width: 49%
+- name: Pont Saint Martin
+  image: assets/images/pont_saint_martin.jpg
+  link: https://www.mairie-pontsaintmartin.fr/
   width: 49%

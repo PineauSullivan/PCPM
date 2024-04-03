@@ -10,6 +10,9 @@ layout: compress
 </head>
 
 <body>
+  <div class="bandeau-pcpm is-font-pcpm-Montserrat-regular-x-small">
+    <p><a href={{site.message-bandeau.lien}} style="color: white; text-decoration: underline;">{{site.message-bandeau.text}}</a></p>
+  </div>
   {% include navbar.html %}
 
   <section class="hero is-fullheight has-text-centered" id="post">
@@ -52,16 +55,32 @@ layout: compress
             </p>
             {%- endunless -%}
             {% assign words = content | number_of_words %}
-            {%- unless content.size == 0 -%}
+            <!--{%- unless content.size == 0 -%}
             <p class="subtitle is-uppercase"><i class="fas fa-clock"></i> <b class="has-text-link">
                 {{ words | divided_by:180 }} min
               </b>de Lecture</p>
-            {%- endunless -%}
+            {%- endunless -%} -->
           </div>
         </div>
         <div class="content has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile">
           <p>{{ content }}</p>
         </div>
+        {%- unless page.lien-banque == "" -%}
+        <h1 class="title-with-image">
+          <span class="image-container"></span>
+          <span class="text-h1 is-1 is-uppercase has-text-weight-bold title is-size-4-touch text-black">Formulaire d'inscription</span>
+        </h1>
+        <iframe class="iframe-tournoi" src="{{ page.lien-banque }}"></iframe>
+        <i>Si vous préférez, vous pouvez directement accéder au formulaire d'inscription en cliquant <a href="{{ page.lien-banque }}">ici</a>.</i>
+      </br>
+        <a href="{{ page.lien-banque }}">
+          <h1 class="title-with-image">
+            <span class="image-container"></span>
+            <span class="text-h1 is-1 is-uppercase has-text-weight-bold title is-size-4-touch text-black">Cliquez ici pour vous inscrire</span>
+          </h1>
+        </a>
+        {%- endunless -%}
+
         {% unless site.disqus-shortname == "" %}
         <div class="disqus-comments" id="disqus_thread"></div>
         {% endunless %}
