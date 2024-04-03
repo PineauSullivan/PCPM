@@ -46,11 +46,15 @@
   image: assets/images/Partenaire_12_FAMILLEMARY.svg
   link: https://www.famillemary.fr/
   width: 49%
+- name: KIOSQUEAPIZZA
+  image: assets/images/Partenaire_13_KIOSQUEAPIZZA.svg
+  link: /
+  width: 49%
 - name: Cartes-production
-  image: assets/images/cartes-production.JPG
+  image: assets/images/Partenaire_14_CARTEPROD.svg
   link: https://www.cartes-production.com/
   width: 49%
 - name: Pont Saint Martin
-  image: assets/images/pont_saint_martin.jpg
+  image: assets/images/Partenaire_15_MAIRIE.svg
   link: https://www.mairie-pontsaintmartin.fr/
-  width: 49%
+  width: 100%
