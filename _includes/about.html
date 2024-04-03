@@ -46,29 +46,8 @@
                     
                     <div class="sponsors-cards">
                         {% for member in site.data.members %}
-                        <div class="column has-text-centered is-marginless"
-                            id="project-card">
-                            <div class="has-background-red card">
-                                <figure>
-                                    <img class="img-member" src="{{member.image}}"/>
-                                </figure>
-                                <div class="card-content">
-                                <h1 class="title has-text-black is-size-4">{{ member.name }}</h1>
-                                {% assign birthdate_parts = member.date | split: "-" %}
-                                {% assign today_parts = site.time | date: "%Y-%m-%d" | split: "-" %}
-                                
-                                {% assign age = today_parts[0] | minus: birthdate_parts[0] %}
-                                
-                                {% if today_parts[1] < birthdate_parts[1] or (today_parts[1] == birthdate_parts[1] and today_parts[2] < birthdate_parts[2]) %}
-                                    {% assign age = age | minus: 1 %}
-                                {% endif %}
-                                <p class="has-text-white has-text-weight-light content">Age : {{ age | truncate: 80}} ans</p>
-                                <p class="has-text-white has-text-weight-light content">Métier : {{ member.metier | truncate: 80}}</p>
-                                <p class="has-text-white has-text-weight-light content">Fonction : {{ member.fonction | truncate: 80}}</p>
-                                </div>
-                            </div>
-                        </div>
-                    {% endfor %}
+                            <img class="img-member-svg" src="{{member.svg}}" alt="{{member.name}}"/>
+                        {% endfor %}
                 </div>
                 </div>
                 <div class="column column-mot-du-president background-red is-white-pcpm-text">

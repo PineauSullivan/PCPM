@@ -4,6 +4,10 @@
             <h1 class="title-with-image-pcpm">
                 <img src="../assets/images/Titre_Partenaires.svg"/>
             </h1>
+            <div class="content-partenaire">
+                <p>C'est avec grand plaisir que nous vous présentons les entreprises de la région qui nous ont fait confiance.</p>
+                <p>Voici nos partenaires dans plusieurs secteurs d'activité. <b class="is-red-pcpm-text">Nous les remercions pour leur soutient.</b></p>
+            </div>
             <div class="sponsors-cards">
                 {% for project in site.data.sponsors %}
                 <div class="sponsors-card" style="width: {{project.width}};">
@@ -13,7 +17,6 @@
                             <img src="{{project.image}}" />
                         </figure>
                         <div class="card-content">
-                        <h1 class="title sponsors-card-title has-text-black is-size-4">{{ project.name }}</h1>
                         </div>
                     </div>
                     </a>
