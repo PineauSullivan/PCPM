@@ -67,7 +67,10 @@ layout: compress
         <div class="content has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile">
           <p>{{ content }}</p>
         </div>
+        
         {%- unless page.lien-banque == "" -%}
+            
+        <!--
         <h1 class="title-with-image">
           <span class="image-container"></span>
           <span class="text-h1 is-1 is-uppercase has-text-weight-bold title is-size-4-touch text-black">Formulaire d'inscription</span>
@@ -77,7 +80,6 @@ layout: compress
       </br>
       
     
-        <!--
       <div class="navbar-item-post-link-div">
         <a class="is-white-pcpm-text is-font-pcpm-Montserrat-bold-large {% if page.layout == 'blog' %}is-active{% endif %}"
         href="{{ page.lien-banque }}">
