@@ -68,28 +68,28 @@ layout: compress
           <p>{{ content }}</p>
         </div>
         
-        {%- unless page.lien-banque == "" -%}
-            
-        <!--
+        {%- if page.lien-banque-iframe and page.lien-banque-iframe != "" and page.lien-banque-iframe != nil -%}
+           
         <h1 class="title-with-image">
           <span class="image-container"></span>
           <span class="text-h1 is-1 is-uppercase has-text-weight-bold title is-size-4-touch text-black">Formulaire d'inscription</span>
         </h1>
-        <iframe class="iframe-tournoi" src="{{ page.lien-banque }}"></iframe>
-        <i>Si vous préférez, vous pouvez directement accéder au formulaire d'inscription en cliquant <a href="{{ page.lien-banque }}">ici</a>.</i>
+        <iframe class="iframe-tournoi" src="{{ page.lien-banque-iframe }}"></iframe>
+        <i>Si vous préférez, vous pouvez directement accéder au formulaire d'inscription en cliquant <a href="{{ page.lien-banque-iframe }}">ici</a>.</i>
       </br>
       
-    
+      {%- endif -%}
+      {%- if page.lien-banque-unique and page.lien-banque-unique != "" and page.lien-banque-unique != nil -%}
+
       <div class="navbar-item-post-link-div">
         <a class="is-white-pcpm-text is-font-pcpm-Montserrat-bold-large {% if page.layout == 'blog' %}is-active{% endif %}"
-        href="{{ page.lien-banque }}">
+        href="{{ page.lien-banque-unique }}">
             <div class="navbar-item-post-link is-uppercase">
                  > INSCRIPTION ICI <
             </div>
         </a>
       </div>
-        -->
-        {%- endunless -%}
+      {%- endif -%}
 
         {% unless site.disqus-shortname == "" %}
         <div class="disqus-comments" id="disqus_thread"></div>
