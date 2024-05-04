@@ -78,11 +78,7 @@ layout: compress
         
         {%- if page.lien-banque-iframe and page.lien-banque-iframe != "" and page.lien-banque-iframe != nil -%}
         <div class="div-titre-banque-iframe" >
-          <h1 class="title-with-image">
-            <span class="image-container"></span>
-            <span class="text-h1 is-1 is-uppercase has-text-weight-bold title is-size-4-touch text-black">Formulaire d'adhésion</span>
-          </h1>
-          <!--<img class="titre-banque-iframe" src="../{{ page.titre-banque-iframe }}"/>-->
+          <img class="titre-banque-iframe" src="../{{ page.titre-banque-iframe }}"/>
         </div>
         <i>{{ page.detail-banque-iframe }}</i>
         <iframe class="iframe-tournoi" src="{{ page.lien-banque-iframe }}"></iframe>
