@@ -26,6 +26,10 @@
   image: assets/images/Partenaire_07_LEPRALIN.svg
   link: /
   width: 49%
+- name: LE42
+  image: assets/images/Partenaire_08_LE42.svg
+  link: /
+  width: 49%
 - name: COIFFURESAINTMARTIN
   image: assets/images/Partenaire_09_COIFFURESAINTMARTIN.svg
   link: /
@@ -53,4 +57,4 @@
 - name: Pont Saint Martin
   image: assets/images/Partenaire_15_MAIRIE.svg
   link: https://www.mairie-pontsaintmartin.fr/
-  width: 49%
+  width: 100%
