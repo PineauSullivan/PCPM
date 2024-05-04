@@ -190,7 +190,7 @@ a.navbar-item.is-active {
 
 #contact {
     #contact-button {
-        margin: 0.5rem auto;
+        margin: 0rem !important;
         display: flex;
         justify-content: center;
         width: 100%;
@@ -561,7 +561,6 @@ a.navbar-item.is-active {
     display: inline-block;
     text-align: left;
     width: 100%;
-    margin-bottom: 60px;
 }
 
 .title-with-image {
@@ -618,8 +617,15 @@ a.navbar-item.is-active {
     margin-top: 40px;
 }
 
-div#blog-card {
+.blog-card-pcpm {
     background-image: url('../images/event_background.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blog-card-black {
+    background-color: black;
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -703,7 +709,8 @@ section#contact {
 
 .container-pcpm-other {
     top: 50px;
-
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
 }
 
 div#results-container {
@@ -741,6 +748,8 @@ div#results-container {
 .content-partenaire {
     text-align: justify;
     margin-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .container-post {
@@ -761,4 +770,16 @@ div#results-container {
 
 .navbar-item-post-link-div {
     width: 100%;
+}
+
+.div-titre-banque-iframe {
+    width: 100%;
+}
+
+.titre-banque-iframe  {
+    max-width: 800px;
+}
+
+.button-association {
+    border: none;
 }

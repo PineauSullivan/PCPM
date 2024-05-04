@@ -14,7 +14,7 @@ layout: compress
     {% include navbar.html %}
 
     <section class="hero is-fullheight" id="blog">
-        <div class="hero-body">
+        <div class="hero-body hero-body-blog">
             <div class="container container-pcpm-other">
                 {% include blogpage-heading.html %}
             </div>
@@ -24,6 +24,14 @@ layout: compress
         {% for post in site.posts %}
             {% include blog-card.html %}
         {% endfor %}
+        <div class="columns has-text-centered blog-card-black" id="blog-card">
+            <div class="column is-marginless is-paddingless is-one-third-desktop is-one-third-fullhd is-one-third-tablet">
+                <div class="image is-16by9" style="background-image: url(assets/images/a_venir.svg);"></div>
+            </div>
+            <div class="column has-text-left-desktop has-text-left-tablet">
+                <h1 class="title has-text-white is-size-4-touch">Dates bientôt disponibles</h1>
+            </div>
+        </div>
         </div>
     </section>
     <br>
@@ -36,7 +44,7 @@ layout: compress
             searchInput: document.getElementById('search'),
             resultsContainer: document.getElementById('results-container'),
             json: '{{site.url}}{{site.baseurl}}/search.json',
-            searchResultTemplate: '<div style="border: 0.15rem dashed black" class="searchResult columns has-text-centered" id="blog-card"><div class="column is-marginless is-paddingless is-one-third-desktop is-one-third-fullhd is-one-third-tablet"><div class="image is-16by9" style="background-image: url({image});"></div></div><a href="{url}"><div class="column has-text-left-desktop has-text-left-tablet"><h1 class="title is-size-4-touch has-text-red">{title}</h1><div class="content has-text-white">{description}<hr class="has-background-grey"><span class="has-text-grey">Prévu le <span class="has-text-weight-semibold">{datee}</span></span> </div></div></a></div>',
+            searchResultTemplate: '<div style="border: 0.15rem dashed black" class="searchResult columns has-text-centered" id="blog-card"><div class="column is-marginless is-paddingless is-one-third-desktop is-one-third-fullhd is-one-third-tablet"><div class="image is-16by9" style="background-image: url({image});"></div></div><a href="{url}"><div class="column has-text-left-desktop has-text-left-tablet"><h1 class="title is-size-4-touch has-text-red">{title}</h1><div class="content has-text-white">{description}<hr class="has-background-grey"><span class="has-text-grey">Prévu le <span class="has-text-weight-semibold">{dateTournoi}</span></span> </div></div></a></div>',
             noResultsText: '<div class="subtitle has-text-centered is-uppercase">No Results Found</div><hr class="has-background-black" style="margin: 0.5rem 5rem 2.5rem 5rem">',
             fuzzy: true,
         });
