@@ -1,0 +1,60 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+    <div class="bandeau-pcpm is-font-pcpm-Montserrat-regular-x-small">
+        <p><a href={{site.message-bandeau.lien}} style="color: white; text-decoration: underline;">{{site.message-bandeau.text}}</a></p>
+    </div>
+    
+    {% include navbar.html %}
+
+    <!--Main Section-->
+    <section class="hero is-fullheight" id="project">
+        <div class="hero-body is-black-pcpm">
+            <div class="container has-text-centered container-pcpm-other">
+                <div class="section">
+                    <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">
+
+                    </p>
+                    <h1 class="title-with-image-pcpm titre-page-supplementaire">
+                        <img class="image-titre-page-supplementaire" src="../assets/images/Titre_Bureau.svg"/>
+                    </h1>
+        
+                    <div class="columns">
+                       
+                        <div class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen text-white">
+                            
+                            <div class="sponsors-cards">
+                                {% for member in site.data.members %}
+                                    <img class="img-member-svg" src="{{member.svg}}" alt="{{member.name}}"/>
+                                {% endfor %}
+                        </div>
+                        </div>
+                        <div class="column column-mot-du-president background-red is-white-pcpm-text">
+                            <div class="is-uppercase has-text-weight-bold is-white-pcpm-text title-mot-du-president is-font-pcpm-Montserrat-regular-x-large">le mot du président</div>
+                            <hr class="has-background-grey-pcpm hr-mot-du-president">
+                            <div class="content-mot-du-president">
+                                {% for mot in site.mot-du-president %}
+                                <p style="text-align: justify;">{{mot}}</p>
+                                </br>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <!--Footer-->
+    {% include footer.html %}
+</body>
+
+</html>

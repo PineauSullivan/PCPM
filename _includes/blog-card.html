@@ -5,13 +5,13 @@
             <div class="image is-16by9" style="background-image: url({{post.post-image}});"></div>
         </div>
         
-            <div class="column has-text-left-desktop has-text-left-tablet">
-                <h1 class="title has-text-red is-size-4-touch">DATE : {{post.dateTournoi}}</h1>
-                <div class="content has-text-white">
-                    {{ post.title | truncate: 300 | strip_html | strip_newlines | strip | escape }}
-                    <hr class="has-background-grey">
-                    <span class="has-text-grey">Lieu : <span class="has-text-weight-semibold">{{ post.lieu }}</span></span>
-                </div>
+        <div class="column has-text-left-desktop has-text-left-tablet">
+            <h1 class="title has-text-red is-size-4-touch">Date : {{post.dateTournoi}}</h1>
+            <div class="content has-text-white">
+                {{ post.title | truncate: 300 | strip_html | strip_newlines | strip | escape }}
+                <hr class="has-background-grey">
+                <span class="has-text-grey">Lieu : <span class="has-text-weight-semibold">{{ post.lieu }}</span></span>
             </div>
+        </div>
     </div>
 </a>

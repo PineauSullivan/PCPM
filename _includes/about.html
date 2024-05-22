@@ -1,4 +1,4 @@
-<section class="hero is-fullheight has-text-centered is-black-pcpm" id="about">
+<section class="hero has-text-centered is-black-pcpm" id="about">
     <div class="hero-body hero-body-about">
         <div class="container">
             <h1 class="title-with-image-pcpm">
@@ -31,35 +31,5 @@
             </div>
             </br>
 
-            <div class="division-asso-bureau">
-                <img class="image-division-asso-bureau" src="../assets/images/Motif_demi_horizontal.svg"/>
-                <hr class="has-background-black motif-horizontal">
-            </div>
-
-            <h1 class="title-with-image-pcpm">
-                <img src="../assets/images/Titre_Bureau.svg"/>
-            </h1>
-
-            <div class="columns">
-               
-                <div class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen text-white">
-                    
-                    <div class="sponsors-cards">
-                        {% for member in site.data.members %}
-                            <img class="img-member-svg" src="{{member.svg}}" alt="{{member.name}}"/>
-                        {% endfor %}
-                </div>
-                </div>
-                <div class="column column-mot-du-president background-red is-white-pcpm-text">
-                    <div class="is-uppercase has-text-weight-bold is-white-pcpm-text title-mot-du-president is-font-pcpm-Montserrat-regular-x-large">le mot du président</div>
-                    <hr class="has-background-grey-pcpm hr-mot-du-president">
-                    <div class="content-mot-du-president">
-                        {% for mot in site.mot-du-president %}
-                        <p style="text-align: justify;">{{mot}}</p>
-                        </br>
-                        {% endfor %}
-                    </div>
-                </div>
-            </div>
         </div>
 </section>
