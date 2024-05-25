@@ -1,5 +1,7 @@
+<!---
 ---
 layout: photos
 title: Photos
 ---
 
+-->
