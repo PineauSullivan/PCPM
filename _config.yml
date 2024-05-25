@@ -64,6 +64,8 @@ author-about: Site officiel du poker club de Pont-Saint-Martin
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/PineauSullivan
 
+afficher-post-dates-bientot-disponible: True
+
 # SASS
 sass:
   sass_dir: _sass

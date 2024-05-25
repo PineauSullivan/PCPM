@@ -73,28 +73,104 @@ layout: compress
           <p>{{ content }}</p>
         </div>
 
-        {%- if page.lien-banque-iframe and page.lien-banque-iframe != "" and page.lien-banque-iframe != nil -%}
-        <div class="div-titre-banque-iframe" >
-          <img class="titre-banque-iframe" src="../{{ page.titre-banque-iframe }}"/>
-        </div>
-        <i>{{ page.description-banque-iframe }}</i>
-        <iframe class="iframe-tournoi" src="{{ page.lien-banque-iframe }}"></iframe>
-        </br>
-        <i>Si vous préférez, vous pouvez directement accéder au formulaire d'inscription en cliquant <a href="{{ page.lien-banque-iframe }}">ici</a>.</i>
-      </br>
-      
-      {%- endif -%}
-      {%- if page.lien-banque-unique and page.lien-banque-unique != "" and page.lien-banque-unique != nil -%}
 
-      <div class="navbar-item-post-link-div">
-        <a class="is-white-pcpm-text is-font-pcpm-Montserrat-bold-large {% if page.layout == 'blog' %}is-active{% endif %}"
-        href="{{ page.lien-banque-unique }}">
-            <div class="navbar-item-post-link is-uppercase">
-                 > INSCRIPTION ICI <
+        {% assign today = site.time | date: "%Y-%m-%d" %}
+        {% assign post_date = page.date-tournoi-technique | date: "%Y-%m-%d" %}
+        {% assign is_futur = true %}
+        {% if post_date < today %}
+            {% assign is_futur = false %}
+        {% endif %}
+
+        {% if is_futur %}
+          {%- if page.lien-banque-iframe and page.lien-banque-iframe != "" and page.lien-banque-iframe != nil -%}
+          <div class="div-titre-banque-iframe" >
+            <img class="titre-banque-iframe" src="../{{ page.titre-banque-iframe }}"/>
+          </div>
+          <i>{{ page.description-banque-iframe }}</i>
+          <iframe class="iframe-tournoi" src="{{ page.lien-banque-iframe }}"></iframe>
+          </br>
+          <i>Si vous préférez, vous pouvez directement accéder au formulaire d'inscription en cliquant <a href="{{ page.lien-banque-iframe }}">ici</a>.</i>
+          </br>
+          
+          {%- endif -%}
+          {%- if page.lien-banque-unique and page.lien-banque-unique != "" and page.lien-banque-unique != nil -%}
+
+          <div class="navbar-item-post-link-div">
+            <a class="is-white-pcpm-text is-font-pcpm-Montserrat-bold-large {% if page.layout == 'blog' %}is-active{% endif %}"
+            href="{{ page.lien-banque-unique }}">
+                <div class="navbar-item-post-link is-uppercase">
+                    > INSCRIPTION ICI <
+                </div>
+            </a>
+          </div>
+          {%- endif -%}
+        {% else %}
+        <img src="../assets/images/Motif_demi_horizontal.svg"/>
+        <h1><b>{{ page.message-de-fin }}</b></h1>
+
+        <br/>
+
+      
+        <div class="container-photo-post">
+          {% assign numero_image = 1 %}
+          {% for photo in page.photos %}
+            <div class="mySlides">
+              <div class="numbertext-photo-post">{{ numero_image }}</div>
+              <img src="../{{ photo }}" style="width:100%">
             </div>
-        </a>
+            {% assign numero_image = numero_image | plus: 1 %}
+          {% endfor %}
+            
+          <a class="prev-photo-post" onclick="plusSlides(-1)">❮</a>
+          <a class="next-photo-post" onclick="plusSlides(1)">❯</a>
+
+          <div class="caption-container-photo-post">
+            <p id="caption-photo-post"></p>
+          </div>
+
+          <div class="row-photo-post">
+            {% assign numero_image_small = 1 %}
+            {% for photo in page.photos %}
+            <div class="column-photo-post">
+              <img class="demo-photo-post cursor-photo-post" src="../{{ photo }}" style="width:100%" onclick="currentSlide({{numero_image_small}})">
+            </div>
+              {% assign numero_image_small = numero_image_small | plus: 1 %}
+            {% endfor %}
+        </div>
       </div>
-      {%- endif -%}
+
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("demo");
+          let captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        </script>
+        {% endif %}
+
 
         {% unless site.disqus-shortname == "" %}
         <div class="disqus-comments" id="disqus_thread"></div>
