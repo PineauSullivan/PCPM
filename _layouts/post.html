@@ -116,7 +116,7 @@ layout: compress
           {% for photo in page.photos %}
             <div class="mySlides">
               <div class="numbertext-photo-post">{{ numero_image }}</div>
-              <img src="../{{ photo }}" style="width:100%">
+              <img class="img-photo-post" src="../{{ photo }}" style="width:100%">
             </div>
             {% assign numero_image = numero_image | plus: 1 %}
           {% endfor %}

@@ -710,7 +710,7 @@ section#contact {
 .container-pcpm-other {
     top: 50px;
     margin-top: 0px !important;
-    margin-bottom: 0px !important;
+    margin-bottom: 70px !important;
 }
 
 div#results-container {
@@ -833,11 +833,11 @@ div#results-container {
 .prev-photo-post, .next-photo-post {
     cursor: pointer;
     position: absolute;
-    top: 40%;
+    top: 100px;
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 20px;
     border-radius: 0 3px 3px 0;
@@ -897,4 +897,44 @@ div#results-container {
 
 .active, .demo-photo-post:hover {
     opacity: 1;
+}
+
+.img-photo-post {
+    max-width: 100%;
+    max-height: 600px; /* Vous pouvez ajuster cette valeur selon vos besoins */
+    height: auto;
+    object-fit: contain;
+}
+
+
+.separateur-photo {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.events-list {
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.events-list ul {
+    list-style-type: disclosure-closed; /* Définit le type de puce à disque */
+    padding-left: 20px; /* Ajoute un espace pour afficher les puces */
+}
+
+
+.events-list li {
+    margin: 10px 0;
+}
+
+.events-list a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+}
+
+.events-list a:hover {
+    text-decoration: underline;
 }

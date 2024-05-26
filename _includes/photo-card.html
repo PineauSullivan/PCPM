@@ -1,4 +1,29 @@
 <div class="columns is-centered is-multiline is-mobile">
+  
+  <div class="events-list">
+    <h1>Photos des évenements passés : </h1>
+
+    <ul>
+      {% for post in site.posts %}
+        {% assign today = site.time | date: "%Y-%m-%d" %}
+        {% assign post_date = post.date-tournoi-technique | date: "%Y-%m-%d" %}
+        {% assign is_past = false %}
+        {% if post_date < today %}
+            {% assign is_past = true %}
+        {% endif %}
+        {% if is_past %}
+        <li class="lien-photos-evenement">
+          <a href="{{post.url | absolute_url}}">[{{ post.date-tournoi-technique }}] - {{post.title}}</a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="separateur-photo">
+    <img src="../assets/images/Motif_demi_horizontal.svg"/>
+  </div>
+  <h1>Autres photos : </h1>
+
   {% for project in site.data.photos %}
   <div class="photo-content">
     <img class="img-photo-content" src="{{project.image}}"/>
