@@ -1,60 +1,76 @@
 - name: Kerstic
-  image: assets/images/Partenaire_01_KERSTIC.svg
+  image: assets/images/01_KERSTIC.svg
   link: https://www.kerstic.com/
   width: 49%
 - name: Aumera
-  image: assets/images/Partenaire_02_AUMERA.svg
+  image: assets/images/02_AUMERA.svg
   link: https://www.aumera.fr/
   width: 49%
 - name: Calinsia
-  image: assets/images/Partenaire_03_CALINSIA.svg
+  image: assets/images/03_CALINSIA.svg
   link: https://loveroomnantes.fr/
   width: 49%
 - name: Athelé
-  image: assets/images/Partenaire_04_AC.svg
+  image: assets/images/04_AC.svg
   link: https://www.athele-couvreur-zingueur.fr/
   width: 49%
 - name: Training factory
-  image: assets/images/Partenaire_05_TRAINING.svg
+  image: assets/images/05_TRAINING.svg
   link: https://www.trainingfactory44.fr/
   width: 49%
 - name: CSL Automobiles
-  image: assets/images/Partenaire_06_CSL.svg
+  image: assets/images/06_CSL.svg
   link: https://cslautomobiles.fr/
   width: 49%
 - name: LEPRALIN
-  image: assets/images/Partenaire_07_LEPRALIN.svg
-  link: /
+  image: assets/images/07_LEPRALIN.svg
+  link: https://www.facebook.com/lepralinnoix/
   width: 49%
-- name: LE42
-  image: assets/images/Partenaire_08_LE42.svg
-  link: https://www.planity.com/le-42-barbershop-44860-pont-saint-martin
+- name: Alter Egos
+  image: assets/images/08_ALTER_EGOS.svg
+  link: https://www.alteregos.fr/
   width: 49%
-- name: COIFFURESAINTMARTIN
-  image: assets/images/Partenaire_09_COIFFURESAINTMARTIN.svg
-  link: /
+- name: Coiffure Saint Martin
+  image: assets/images/09_COIFFURE.svg
+  link: https://www.pagesjaunes.fr/pros/02934976
   width: 49%
 - name: Aume élec
-  image: assets/images/Partenaire_10_AUMEELEC.svg
+  image: assets/images/10_AUMEELEC.svg
   link: https://www.facebook.com/people/AUME-ELEC/100041995063868/
   width: 49%
 - name: MAISONCHOBLET
-  image: assets/images/Partenaire_11_MAISONCHOBLET.svg
+  image: assets/images/11_MAISONCHOBLET.svg
   link: https://www.traiteur-choblet.fr/
   width: 49%
+- name: Atelier du gobelet
+  image: assets/images/12_GOBELET.svg
+  link: https://www.atelierdugobelet.fr/fr/
+  width: 49%
+- name: LE42
+  image: assets/images/13_LE42.svg
+  link: https://www.planity.com/le-42-barbershop-44860-pont-saint-martin
+  width: 49%
 - name: Famille Mary
-  image: assets/images/Partenaire_12_FAMILLEMARY.svg
+  image: assets/images/14_FAMILLEMARY.svg
   link: https://www.famillemary.fr/
   width: 49%
-- name: KIOSQUEAPIZZA
-  image: assets/images/Partenaire_13_KIOSQUEAPIZZA.svg
-  link: /
-  width: 49%
 - name: Cartes-production
-  image: assets/images/Partenaire_14_CARTEPROD.svg
+  image: assets/images/15_CARTEPROD.svg
   link: https://www.cartes-production.com/
   width: 49%
 - name: Pont Saint Martin
-  image: assets/images/Partenaire_15_MAIRIE.svg
+  image: assets/images/16_MAIRIE.svg
   link: https://www.mairie-pontsaintmartin.fr/
-  width: 100%
+  width: 49%
+- name: 616 Difraco
+  image: assets/images/17_DIFRACO.svg
+  link: https://www.616difraco.fr/
+  width: 49%
+- name: Dominos
+  image: assets/images/18_DOMINOS.svg
+  link: https://www.dominos.fr/
+  width: 49%
+- name: Café de la place
+  image: assets/images/19_PMU.svg
+  link: https://www.facebook.com/profile.php?id=100085628745068
+  width: 49%
