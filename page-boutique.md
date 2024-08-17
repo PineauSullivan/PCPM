@@ -3,10 +3,10 @@ title: Boutique
 layout: boutique
 
 vente:
-- name: "Polo basique"
+- name: "Polo classique"
   prix: "35€"
   image: assets/images/boutique/polo_basic.jpeg
-- name: "Polo avec logo derrière"
+- name: "Polo avec le logo derrière"
   prix: "40€"
   image: assets/images/boutique/polo_back.jpeg
 ---
