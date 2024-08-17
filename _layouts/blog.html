@@ -8,9 +8,16 @@ layout: compress
 {% include head.html %}
 
 <body>
+
+    {% if site.message-bandeau.text %}
     <div class="bandeau-pcpm is-font-pcpm-Montserrat-regular-x-small">
+        {% if site.message-bandeau.lien %}
         <p><a href={{site.message-bandeau.lien}} style="color: white; text-decoration: underline;">{{site.message-bandeau.text}}</a></p>
+        {% else %}
+        <p style="color: white; padding-top: 3px;">{{site.message-bandeau.text}}</p>
+        {% endif %}
     </div>
+    {% endif %}
     {% include navbar.html %}
 
     <section class="hero is-fullheight" id="blog">
@@ -21,13 +28,18 @@ layout: compress
         </div>
         <div id="results-container"></div>
         <!--Blog Cards Section-->
-            {% if site.afficher-post-dates-bientot-disponible %}
+            {% if site.afficher-post-dates-bientot-disponible.active %}
             <div class="columns has-text-centered blog-card-black" id="blog-card">
                 <div class="column is-marginless is-paddingless is-one-third-desktop is-one-third-fullhd is-one-third-tablet">
                     <div class="image is-16by9" style="background-image: url(assets/images/a_venir.svg);"></div>
                 </div>
                 <div class="column has-text-left-desktop has-text-left-tablet">
+                    {% if site.afficher-post-dates-bientot-disponible.message %}
+                    <h1 class="title has-text-white is-size-4-touch">{{ site.afficher-post-dates-bientot-disponible.message }}</h1>
+                    {% else %}
                     <h1 class="title has-text-white is-size-4-touch">Dates bientôt disponibles</h1>
+                    {% endif %}
+                    <h3>Restez attentifs sur les réseaux.</h3>
                 </div>
             </div>
             {% endif %}

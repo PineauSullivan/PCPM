@@ -10,9 +10,16 @@ layout: compress
 </head>
 
 <body>
+
+    {% if site.message-bandeau.text %}
     <div class="bandeau-pcpm is-font-pcpm-Montserrat-regular-x-small">
+        {% if site.message-bandeau.lien %}
         <p><a href={{site.message-bandeau.lien}} style="color: white; text-decoration: underline;">{{site.message-bandeau.text}}</a></p>
+        {% else %}
+        <p style="color: white; padding-top: 3px;">{{site.message-bandeau.text}}</p>
+        {% endif %}
     </div>
+    {% endif %}
     {% include navbar.html %}
 
     <!--Main Section-->

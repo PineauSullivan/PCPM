@@ -10,9 +10,17 @@ layout: compress
 </head>
 
 <body>
+
+  {% if site.message-bandeau.text %}
   <div class="bandeau-pcpm is-font-pcpm-Montserrat-regular-x-small">
-    <p><a href={{site.message-bandeau.lien}} style="color: white; text-decoration: underline;">{{site.message-bandeau.text}}</a></p>
+    {% if site.message-bandeau.lien %}
+    <p><a href={{site.message-bandeau.lien}}
+        style="color: white; text-decoration: underline;">{{site.message-bandeau.text}}</a></p>
+    {% else %}
+    <p style="color: white; padding-top: 3px;">{{site.message-bandeau.text}}</p>
+    {% endif %}
   </div>
+  {% endif %}
   {% include navbar.html %}
 
   <section class="hero is-fullheight has-text-centered" id="post">
@@ -37,16 +45,25 @@ layout: compress
               <img src="{{page.post-image}}" alt="{{post.title}}" id="post-image">
             </figure>
           </div>
-          <div class="subtitle column is-5 has-text-left-desktop has-text-left-fullhd has-text-left-tablet has-text-center-mobile">
+          <div
+            class="subtitle column is-5 has-text-left-desktop has-text-left-fullhd has-text-left-tablet has-text-center-mobile">
             {% unless page.description.size == 0 %}
-            <p id="description" class="content has-text-weight-large is-uppercase is-font-pcpm-Montserrat-semibold-large has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet">{{page.description | strip | strip_html | strip_newlines }}</p>
+            <p id="description"
+              class="content has-text-weight-large is-uppercase is-font-pcpm-Montserrat-semibold-large has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet">
+              {{page.description | strip | strip_html | strip_newlines }}</p>
             {% endunless %}
             </br>
-            <p id="dateTournoi" class="content has-text-weight-large is-font-pcpm-Montserrat-semibold-xlarge has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet">Date : {{page.dateTournoi | strip | strip_html | strip_newlines }}</p>
-            <p id="lieuTournoi" class="content has-text-weight-large is-font-pcpm-Montserrat-semibold-xlarge has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet">Lieu : {{page.lieu | strip | strip_html | strip_newlines }}</p>
+            <p id="dateTournoi"
+              class="content has-text-weight-large is-font-pcpm-Montserrat-semibold-xlarge has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet">
+              Date : {{page.dateTournoi | strip | strip_html | strip_newlines }}</p>
+            <p id="lieuTournoi"
+              class="content has-text-weight-large is-font-pcpm-Montserrat-semibold-xlarge has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet">
+              Lieu : {{page.lieu | strip | strip_html | strip_newlines }}</p>
             {% unless page.description-suite.size == 0 %}
             </br>
-            <p id="description" class="content has-text-weight-large is-font-pcpm-Montserrat-semibold-large has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet">{{page.description-suite | strip | strip_html | strip_newlines }}</p>
+            <p id="description"
+              class="content has-text-weight-large is-font-pcpm-Montserrat-semibold-large has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet">
+              {{page.description-suite | strip | strip_html | strip_newlines }}</p>
             {% endunless %}
             <!--
             {%- assign tags = page.tags -%}
@@ -69,7 +86,8 @@ layout: compress
             {%- endunless -%} -->
           </div>
         </div>
-        <div class="content has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile">
+        <div
+          class="content has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile">
           <p>{{ content }}</p>
         </div>
 
@@ -77,105 +95,109 @@ layout: compress
         {% assign today = site.time | date: "%Y-%m-%d" %}
         {% assign post_date = page.date-tournoi-technique | date: "%Y-%m-%d" %}
         {% assign is_futur = true %}
-        {% if post_date < today %}
-            {% assign is_futur = false %}
-        {% endif %}
-
-        {% if is_futur %}
-          {%- if page.lien-banque-iframe and page.lien-banque-iframe != "" and page.lien-banque-iframe != nil -%}
-          <div class="div-titre-banque-iframe" >
-            <img class="titre-banque-iframe" src="../{{ page.titre-banque-iframe }}"/>
-          </div>
-          <i>{{ page.description-banque-iframe }}</i>
-          <iframe class="iframe-tournoi" src="{{ page.lien-banque-iframe }}"></iframe>
-          </br>
-          <i>Si vous préférez, vous pouvez directement accéder au formulaire d'inscription en cliquant <a href="{{ page.lien-banque-iframe }}">ici</a>.</i>
-          </br>
-          
+        {% if post_date < today %} {% assign is_futur=false %} {% endif %}
+         {% if is_futur %}
+         
+          {%- if page.lien-sondage-pre-inscription and page.lien-sondage-pre-inscription !="" %}
+            <iframe class="iframe-tournoi"  src="{{ page.lien-sondage-pre-inscription }}">Chargement…</iframe>
           {%- endif -%}
-          {%- if page.lien-banque-unique and page.lien-banque-unique != "" and page.lien-banque-unique != nil -%}
 
-          <div class="navbar-item-post-link-div">
-            <a class="is-white-pcpm-text is-font-pcpm-Montserrat-bold-large {% if page.layout == 'blog' %}is-active{% endif %}"
-            href="{{ page.lien-banque-unique }}">
-                <div class="navbar-item-post-link is-uppercase">
-                    > INSCRIPTION ICI <
-                </div>
-            </a>
-          </div>
-          {%- endif -%}
-        {% else %}
-        <img src="../assets/images/Motif_demi_horizontal.svg"/>
-        <h1><b>{{ page.message-de-fin }}</b></h1>
+          {%- if page.lien-banque-iframe and page.lien-banque-iframe !="" and page.lien-banque-iframe !=nil -%} <div
+          class="div-titre-banque-iframe">
+          <img class="titre-banque-iframe" src="../{{ page.titre-banque-iframe }}" />
+            </div>
+            <i>{{ page.description-banque-iframe }}</i>
+            <iframe class="iframe-tournoi" src="{{ page.lien-banque-iframe }}"></iframe>
+            </br>
+            <i>Si vous préférez, vous pouvez directement accéder au formulaire d'inscription en cliquant <a
+                href="{{ page.lien-banque-iframe }}">ici</a>.</i>
+            </br>
 
-        <br/>
+            {%- endif -%}
+      {% else %}
+      <img src="../assets/images/Motif_demi_horizontal.svg" />
+      <h1><b>{{ page.message-de-fin }}</b></h1>
 
-      
-        <div class="container-photo-post">
-          {% assign numero_image = 1 %}
+      <br />
+      {% if page.classement %}
+      <div>
+        <h1><b>Classement :</b></h1>
+        <iframe src="{{ page.classement }}" width="100%" height="600px" allow="autoplay">
+          <a href="{{ page.classement }}">Le classement ne peut pas être affiché. Cliquez ici pour y accéder.</a>
+        </iframe>
+      </div>
+      {% endif %}
+
+
+      <br />
+
+      <h1><b>Photos du tournoi :</b></h1>
+      <div class="container-photo-post">
+        {% assign numero_image = 1 %}
+        {% for photo in page.photos %}
+        <div class="mySlides">
+          <div class="numbertext-photo-post">{{ numero_image }}</div>
+          <img class="img-photo-post" src="../{{ photo }}" style="width:100%">
+        </div>
+        {% assign numero_image = numero_image | plus: 1 %}
+        {% endfor %}
+
+        <a class="prev-photo-post" onclick="plusSlides(-1)">❮</a>
+        <a class="next-photo-post" onclick="plusSlides(1)">❯</a>
+
+        <div class="caption-container-photo-post">
+          <p id="caption-photo-post"></p>
+        </div>
+
+        <div class="row-photo-post">
+          {% assign numero_image_small = 1 %}
           {% for photo in page.photos %}
-            <div class="mySlides">
-              <div class="numbertext-photo-post">{{ numero_image }}</div>
-              <img class="img-photo-post" src="../{{ photo }}" style="width:100%">
-            </div>
-            {% assign numero_image = numero_image | plus: 1 %}
-          {% endfor %}
-            
-          <a class="prev-photo-post" onclick="plusSlides(-1)">❮</a>
-          <a class="next-photo-post" onclick="plusSlides(1)">❯</a>
-
-          <div class="caption-container-photo-post">
-            <p id="caption-photo-post"></p>
+          <div class="column-photo-post">
+            <img class="demo-photo-post cursor-photo-post" src="../{{ photo }}" style="width:100%"
+              onclick="currentSlide({{numero_image_small}})">
           </div>
-
-          <div class="row-photo-post">
-            {% assign numero_image_small = 1 %}
-            {% for photo in page.photos %}
-            <div class="column-photo-post">
-              <img class="demo-photo-post cursor-photo-post" src="../{{ photo }}" style="width:100%" onclick="currentSlide({{numero_image_small}})">
-            </div>
-              {% assign numero_image_small = numero_image_small | plus: 1 %}
-            {% endfor %}
+          {% assign numero_image_small = numero_image_small | plus: 1 %}
+          {% endfor %}
         </div>
       </div>
 
       <script>
         let slideIndex = 1;
         showSlides(slideIndex);
-        
+
         function plusSlides(n) {
           showSlides(slideIndex += n);
         }
-        
+
         function currentSlide(n) {
           showSlides(slideIndex = n);
         }
-        
+
         function showSlides(n) {
           let i;
           let slides = document.getElementsByClassName("mySlides");
           let dots = document.getElementsByClassName("demo");
           let captionText = document.getElementById("caption");
-          if (n > slides.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = slides.length}
+          if (n > slides.length) { slideIndex = 1 }
+          if (n < 1) { slideIndex = slides.length }
           for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
           }
           for (i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" active", "");
           }
-          slides[slideIndex-1].style.display = "block";
-          dots[slideIndex-1].className += " active";
-          captionText.innerHTML = dots[slideIndex-1].alt;
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+          captionText.innerHTML = dots[slideIndex - 1].alt;
         }
-        </script>
-        {% endif %}
+      </script>
+      {% endif %}
 
 
-        {% unless site.disqus-shortname == "" %}
-        <div class="disqus-comments" id="disqus_thread"></div>
-        {% endunless %}
-      </div>
+      {% unless site.disqus-shortname == "" %}
+      <div class="disqus-comments" id="disqus_thread"></div>
+      {% endunless %}
+    </div>
     </div>
   </section>
   {% include footer.html %}
@@ -198,5 +220,6 @@ layout: compress
     (d.head || d.body).appendChild(s);
   })();
 </script>
+
 
 </html>

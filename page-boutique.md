@@ -1,6 +1,19 @@
 ---
 title: Boutique
 layout: boutique
+
+vente:
+- name: "Polo basique"
+  prix: "35€"
+  image: assets/images/boutique/polo_basic.jpeg
+- name: "Polo avec logo derrière"
+  prix: "40€"
+  image: assets/images/boutique/polo_back.jpeg
 ---
 
-Le PCPM travaille actuellement sur l'élaboration d'une collection exceptionnelle de produits. Revenez bientôt pour découvrir nos nouveautés et profiter d'offres exclusives sur la boutique du Poker Club de Pont-Saint-Martin !
+# Bienvenue sur la boutique Poker Club de Pont-Saint-Martin !
+
+Le PCPM a travaillé sur l'élaboration d'une collection exceptionnelle de produits.
+Préparez-vous, notre collection ne cesse de s'agrandir !
+
+Un polo vous fait de l'œil ? Pour toute envie ou question, <a href="/#contact">contactez 'PCPM'</a> et faites-vous plaisir ! 😎

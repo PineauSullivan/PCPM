@@ -50,9 +50,9 @@ author-image: https://pokerpcpm.fr/assets/images/logo_4.jpg
 logo-image: https://pokerpcpm.fr/assets/images/logo_menu_pcpm.svg
 team-image: assets/images/Photo_assotioation_bureau_mars_2023.svg
 message-bandeau: 
-  text: Prochain tournoi le 22 Juin 2024 > Places limitées > Cliquez ici
-  lien: /blog/tournois-2024_22_juin
-  svg: https://pokerpcpm.fr/assets/images/Affiche_site_22juin2024.png
+  text: Prochaine assemblée générale le 12 octobre 2024
+  #lien: /blog/tournois-2024_22_juin
+  #svg: https://pokerpcpm.fr/assets/images/Affiche_site_22juin2024.png
 mot-du-president: 
   - ‘‘Ensemble, réalisons nos objectifs’’
   - Chers amis, en tant que président de cette association, je suis ravi de vous annoncer la création de PCPM. Nous, nous réjouissons de la force et de l’énergie que vous allez apporter à notre communauté. Votre engagement témoigne de votre soutien de nos valeurs et à participer à notre projet associatif. Vous rejoignez une association qui est un pilier essentiel dans la vie de notre localité, et je suis convaincu que votre contribution sera déterminante pour notre avenir commun.
@@ -64,7 +64,9 @@ author-about: Site officiel du poker club de Pont-Saint-Martin
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/PineauSullivan
 
-afficher-post-dates-bientot-disponible: True
+afficher-post-dates-bientot-disponible:
+  active: False
+#  message: "Prochain tournoi prévu le 25/01/2025."
 
 # SASS
 sass:

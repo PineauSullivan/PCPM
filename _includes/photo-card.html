@@ -13,8 +13,13 @@
         {% endif %}
         {% if is_past %}
         <li class="lien-photos-evenement">
-          <a href="{{post.url | absolute_url}}">[{{ post.date-tournoi-technique }}] - {{post.title}}</a>
+          <a href="{{post.url | absolute_url}}">
+            <h1>[{{ post.date-tournoi-technique }}] - {{post.title}}</h1>
+            <img class="img-photo-post" src="../{{ post.photos[0] }}" style="width:100%">
+          </a>
         </li>
+        
+
         {% endif %}
       {% endfor %}
     </ul>
@@ -24,10 +29,64 @@
   </div>
   <h1>Autres photos : </h1>
 
-  {% for project in site.data.photos %}
-  <div class="photo-content">
-    <img class="img-photo-content" src="{{project.image}}"/>
+  <div class="container-photo-post">
+    {% assign numero_image = 1 %}
+    {% for photo in site.data.photos %}
+    <div class="mySlides">
+      <div class="numbertext-photo-post">{{ numero_image }}</div>
+      <img class="img-photo-post" src="../{{ photo }}" style="width:100%">
+    </div>
+    {% assign numero_image = numero_image | plus: 1 %}
+    {% endfor %}
+
+    <a class="prev-photo-post" onclick="plusSlides(-1)">❮</a>
+    <a class="next-photo-post" onclick="plusSlides(1)">❯</a>
+
+    <div class="caption-container-photo-post">
+      <p id="caption-photo-post"></p>
+    </div>
+
+    <div class="row-photo-post">
+      {% assign numero_image_small = 1 %}
+      {% for photo in site.data.photos %}
+      <div class="column-photo-post">
+        <img class="demo-photo-post cursor-photo-post" src="../{{ photo }}" style="width:100%"
+          onclick="currentSlide({{numero_image_small}})">
+      </div>
+      {% assign numero_image_small = numero_image_small | plus: 1 %}
+      {% endfor %}
+    </div>
   </div>
-  {% endfor %}
+
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("demo");
+      let captionText = document.getElementById("caption");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+  </script>
 
 </div>
