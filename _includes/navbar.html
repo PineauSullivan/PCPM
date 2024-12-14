@@ -29,7 +29,6 @@
                     href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">Accueil</a>
                     <a class="navbar-item is-red-pcpm-text is-font-pcpm-Montserrat-bold-large" href="{{site.url}}{{site.baseurl}}/#about">Association</a>
                     <a class="navbar-item is-red-pcpm-text is-font-pcpm-Montserrat-bold-large" href="{{site.url}}{{site.baseurl}}/#sponsors">Partenaires</a>
-                    <a class="navbar-item is-red-pcpm-text is-font-pcpm-Montserrat-bold-large" href="{{site.url}}{{site.baseurl}}/photos">Photos</a>
                     <a class="navbar-item is-red-pcpm-text is-font-pcpm-Montserrat-bold-large" href="{{site.url}}{{site.baseurl}}/#contact">Contact</a>
                 {% include dropdown.html %}
                 
@@ -39,6 +38,14 @@
                         <div class="navbar-item-tournois is-uppercase">
                             <i class="fas fa-calendar-check"></i>
                             Tournois
+                        </div>
+                    </a>
+                </div> <div class="navbar-item">
+                    <a class="is-black-pcpm-text is-font-pcpm-Montserrat-bold-large {% if page.layout == 'blog' %}is-active{% endif %}"
+                    href="{{site.url}}{{site.baseurl}}/adhesion">
+                        <div class="navbar-item-adhesion is-uppercase">
+                            <i class="fas fa-calendar-check"></i>
+                            Adhésion
                         </div>
                     </a>
                 </div>
