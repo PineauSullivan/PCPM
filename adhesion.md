@@ -1,7 +1,7 @@
 ---
 layout: adhesion
 title: Adhésion
-lien-banque-iframe: https://www.payasso.fr/pokerpcpm/adhesion
+lien-banque-iframe: https://www.payasso.fr/pokerpcpm/inscription
 ---
 
 # Cher futur adhérent, Bienvenue au PCPM.
