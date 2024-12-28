@@ -16,7 +16,11 @@ lien-billetweb-iframe:
 description-banque-iframe: 
 
 lien-sondage-pre-inscription: https://docs.google.com/forms/d/e/1FAIpQLSedlzPRcT7EkOL-6SawexsfF7zSgi1wqgnmB99bZ5G4NsYKOA/viewform?embedded=true
-
+message-de-fin: L'événement est passé ! Merci pour ce moment !
+photos: 
+- assets/images/[image_tournois_1]
+- assets/images/[image_tournois_2]
+classement: "A REMPLIR avec le lien du classement google e preview"
 ---
 
 # Les inscriptions
