@@ -12,8 +12,7 @@ tags:
 - PONT SAINT MARTIN
 - POKER CLUB
 - TOURNOIS
-lien-banque-iframe: 
-titre-banque-iframe: assets/images/Titre_formulaire_dadhesion.svg
+lien-billetweb-iframe: 
 description-banque-iframe: 
 
 lien-sondage-pre-inscription: https://docs.google.com/forms/d/e/1FAIpQLSedlzPRcT7EkOL-6SawexsfF7zSgi1wqgnmB99bZ5G4NsYKOA/viewform?embedded=true

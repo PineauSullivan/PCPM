@@ -101,18 +101,26 @@ layout: compress
             <iframe class="iframe-tournoi"  src="{{ page.lien-sondage-pre-inscription }}">Chargement…</iframe>
           {%- endif -%}
 
-          {%- if page.lien-banque-iframe and page.lien-banque-iframe !="" and page.lien-banque-iframe !=nil -%} <div
+          {%- if page.lien-billetweb-iframe and page.lien-billetweb-iframe !="" and page.lien-billetweb-iframe !=nil -%} <div
           class="div-titre-banque-iframe">
-          <img class="titre-banque-iframe" src="../{{ page.titre-banque-iframe }}" />
+          <img class="titre-banque-iframe" src="../{{ page.titre-billetweb-iframe }}" />
             </div>
             <i>{{ page.description-banque-iframe }}</i>
-            <iframe class="iframe-tournoi" src="{{ page.lien-banque-iframe }}"></iframe>
+            <iframe class="iframe-tournoi" src="{{ page.lien-billetweb-iframe }}"></iframe>
             </br>
             <i>Si vous préférez, vous pouvez directement accéder au formulaire d'inscription en cliquant <a
-                href="{{ page.lien-banque-iframe }}">ici</a>.</i>
+                href="{{ page.lien-billetweb-iframe }}">ici</a>.</i>
             </br>
 
             {%- endif -%}
+            {%- if page.lien-banque-iframe and page.lien-banque-iframe !="" and page.lien-banque-iframe !=nil -%}
+            <div class="content has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile content-adhesion">
+              <div class="bouton-adhesion has-background-red-pcpm">
+                <a href="{{ page.lien-banque-iframe }}" class="button-association is-uppercase has-background-red-pcpm is-white-pcpm-text border-radius-zero">Cliquez ici pour accéder au formulaire d'adhésion.</a>
+              </div>
+            </div>
+            {%- endif -%}
+
       {% else %}
       <img src="../assets/images/Motif_demi_horizontal.svg" />
       <h1><b>{{ page.message-de-fin }}</b></h1>
