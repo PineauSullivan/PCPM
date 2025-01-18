@@ -3,10 +3,10 @@ title: Le premier tournoi officiel de PCPM de 2025.
 layout: post
 post-image: "https://pokerpcpm.fr/assets/images/tournoi_2025_25_01/1er_pcpm_st_martin.png"
 description: "L'association PCPM propose des tournois sans croupier de poker Texas hold'em. Pour plus d'informations consultez nos règlements"
-description-suite: "L'attente en vaut la peine... Les détails arrivent très bientôt ! Restez connectés."
-dateTournoi: "25/01/2025"
+description-suite: "L'attente en vaut la peine..."
+dateTournoi: "25/01/2025, démarrage du tournoi à 14h00. Accueil des joueurs à 13h."
 date-tournoi-technique: "25/01/2025"
-lieu: Information à venir
+lieu: "Salle des fêtes de Pont-Saint-Martin, impasse des halbrans, 44860 Pont-Saint-Martin"
 tags:
 - PCPM
 - PONT SAINT MARTIN
@@ -23,6 +23,4 @@ photos:
 classement: "A REMPLIR avec le lien du classement google e preview"
 ---
 
-# Les inscriptions
-
-Prochainement.
+Le tournoi est proche, préparez-vous ! ♦️♠️♥️♣️
