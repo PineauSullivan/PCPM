@@ -24,6 +24,4 @@ photos:
 classement: "A REMPLIR avec le lien du classement google e preview"
 ---
 
-# Les inscriptions
-
 Prochainement.
