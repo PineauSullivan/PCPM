@@ -18,19 +18,16 @@ description-banque-iframe:
 lien-sondage-pre-inscription: https://docs.google.com/forms/d/e/1FAIpQLSedlzPRcT7EkOL-6SawexsfF7zSgi1wqgnmB99bZ5G4NsYKOA/viewform?embedded=true
 message-de-fin: L'événement est passé ! Merci pour ce moment !
 photos: 
-- assets/images/tournoi_2025_25_01/20250125_141259.jpg
-- assets/images/tournoi_2025_25_01/20250125_192556.jpg
-- assets/images/tournoi_2025_25_01/20250125_233219.jpg
+- assets/images/tournoi_2025_25_01/20250125_141237.jpg
+- assets/images/tournoi_2025_25_01/IMG_3166.jpeg
 - assets/images/tournoi_2025_25_01/IMG-20250126-WA0002.jpg
 - assets/images/tournoi_2025_25_01/IMG-20250126-WA0006.jpg
-- assets/images/tournoi_2025_25_01/IMG_3166.jpeg
 - assets/images/tournoi_2025_25_01/IMG_3170.jpeg
 - assets/images/tournoi_2025_25_01/IMG_3174.jpeg
 - assets/images/tournoi_2025_25_01/IMG_3179.jpeg
 - assets/images/tournoi_2025_25_01/IMG_3188.jpeg
 - assets/images/tournoi_2025_25_01/IMG_3192.jpeg
 - assets/images/tournoi_2025_25_01/IMG_3196.jpeg
-- assets/images/tournoi_2025_25_01/20250125_141237.jpg
 - assets/images/tournoi_2025_25_01/20250125_192532.jpg
 - assets/images/tournoi_2025_25_01/20250125_192559.jpg
 - assets/images/tournoi_2025_25_01/IMG-20250126-WA0000.jpg
@@ -67,6 +64,29 @@ photos:
 - assets/images/tournoi_2025_25_01/IMG_3186.jpeg
 - assets/images/tournoi_2025_25_01/IMG_3191.jpeg
 - assets/images/tournoi_2025_25_01/IMG_3195.jpeg
+- assets/images/tournoi_2025_25_01/20250125_101400.jpg
+- assets/images/tournoi_2025_25_01/20250125_101422.jpg
+- assets/images/tournoi_2025_25_01/20250125_101440.jpg
+- assets/images/tournoi_2025_25_01/20250125_101452.jpg
+- assets/images/tournoi_2025_25_01/20250125_123126.jpg
+- assets/images/tournoi_2025_25_01/20250125_123135.jpg
+- assets/images/tournoi_2025_25_01/20250125_123153.jpg
+- assets/images/tournoi_2025_25_01/20250125_123215.jpg
+- assets/images/tournoi_2025_25_01/20250125_123319.jpg
+- assets/images/tournoi_2025_25_01/20250125_131522.jpg
+- assets/images/tournoi_2025_25_01/20250125_101417.jpg
+- assets/images/tournoi_2025_25_01/20250125_101432.jpg
+- assets/images/tournoi_2025_25_01/20250125_101450.jpg
+- assets/images/tournoi_2025_25_01/20250125_101456.jpg
+- assets/images/tournoi_2025_25_01/20250125_123128.jpg
+- assets/images/tournoi_2025_25_01/20250125_123144.jpg
+- assets/images/tournoi_2025_25_01/20250125_123209.jpg
+- assets/images/tournoi_2025_25_01/20250125_123317.jpg
+- assets/images/tournoi_2025_25_01/20250125_123326.jpg
+- assets/images/tournoi_2025_25_01/20250125_131525.jpg
+- assets/images/tournoi_2025_25_01/20250125_141259.jpg
+- assets/images/tournoi_2025_25_01/20250125_192556.jpg
+- assets/images/tournoi_2025_25_01/20250125_233219.jpg
 classement: "https://drive.google.com/file/d/1T-jMyLrCGcCw238PGWylRhS5OqZwDYrg/preview"
 ---
 
