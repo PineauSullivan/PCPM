@@ -34,10 +34,6 @@
   image: assets/images/09_COIFFURE.svg
   link: https://www.pagesjaunes.fr/pros/02934976
   width: 49%
-- name: Aume élec
-  image: assets/images/10_AUMEELEC.svg
-  link: https://www.facebook.com/people/AUME-ELEC/100041995063868/
-  width: 49%
 - name: MAISONCHOBLET
   image: assets/images/11_MAISONCHOBLET.svg
   link: https://www.traiteur-choblet.fr/
@@ -46,14 +42,6 @@
   image: assets/images/12_GOBELET.svg
   link: https://www.atelierdugobelet.fr/fr/
   width: 49%
-- name: LE42
-  image: assets/images/13_LE42.svg
-  link: https://www.planity.com/le-42-barbershop-44860-pont-saint-martin
-  width: 49%
-- name: Famille Mary
-  image: assets/images/14_FAMILLEMARY.svg
-  link: https://www.famillemary.fr/
-  width: 49%
 - name: Cartes-production
   image: assets/images/15_CARTEPROD.svg
   link: https://www.cartes-production.com/
@@ -61,10 +49,6 @@
 - name: Pont Saint Martin
   image: assets/images/16_MAIRIE.svg
   link: https://www.mairie-pontsaintmartin.fr/
-  width: 49%
-- name: 616 Difraco
-  image: assets/images/17_DIFRACO.svg
-  link: https://www.616difraco.fr/
   width: 49%
 - name: Dominos
   image: assets/images/18_DOMINOS.svg
