@@ -1,0 +1,27 @@
+---
+title: "Tournoi de l'AG"
+layout: post
+post-image: "https://pokerpcpm.fr/assets/images/3eme_pcpm_Ag.png"
+description: "L'association PCPM propose des tournois sans croupier de poker Texas hold'em. Pour plus d'informations consultez nos règlements"
+description-suite: "L'attente en vaut la peine... Les détails arrivent très bientôt ! Restez connectés."
+dateTournoi: "11/10/2025"
+date-tournoi-technique:  "11-10-2025"
+lieu: "Information à venir"
+tags:
+- PCPM
+- PONT SAINT MARTIN
+- POKER CLUB
+- TOURNOIS
+lien-billetweb-iframe: "A REMPLIR SI lien billet web" -> sinon ne rien mettre
+lien-banque-iframe: "A REMPLIR SI lien banque" -> sinon ne rien mettre
+description-banque-iframe: 
+
+lien-sondage-pre-inscription: "A REMPLIR avec le lien du sondage google"
+message-de-fin: L'événement est passé ! Merci pour ce moment !
+photos: 
+- assets/images/[image_tournois_1]
+- assets/images/[image_tournois_2]
+classement: "A REMPLIR avec le lien du classement google en preview"
+---
+
+Prochainement.
