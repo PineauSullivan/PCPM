@@ -691,9 +691,13 @@ a.navbar-item.is-active {
     text-align: center;
 }
 
+{% if site.message-bandeau %}
+{% if site.message-bandeau.text %}
 .navbar.is-fixed-top {
     top: 20px;
 }
+{% endif %}
+{% endif %}
 
 .title-mot-du-president {
     text-align: left;
@@ -799,6 +803,8 @@ div#results-container {
 
 .button-association {
     border: none;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .titre-page-supplementaire{

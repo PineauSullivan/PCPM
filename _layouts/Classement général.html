@@ -11,14 +11,16 @@ layout: compress
 
 <body>
 
-    {% if site.message-bandeau.text %}
-    <div class="bandeau-pcpm is-font-pcpm-Montserrat-regular-x-small">
-        {% if site.message-bandeau.lien %}
-        <p><a href={{site.message-bandeau.lien}} class="message-bandeau-text">{{site.message-bandeau.text}}</a></p>
-        {% else %}
-        <p style="color: white; padding-top: 3px;">{{site.message-bandeau.text}}</p>
+    {% if site.message-bandeau %}
+        {% if site.message-bandeau.text %}
+        <div class="bandeau-pcpm is-font-pcpm-Montserrat-regular-x-small">
+            {% if site.message-bandeau.lien %}
+            <p><a href={{site.message-bandeau.lien}} class="message-bandeau-text">{{site.message-bandeau.text}}</a></p>
+            {% else %}
+            <p style="color: white; padding-top: 3px;">{{site.message-bandeau.text}}</p>
+            {% endif %}
+        </div>
         {% endif %}
-    </div>
     {% endif %}
     {% include navbar.html %}
 
@@ -26,15 +28,20 @@ layout: compress
     <section class="hero is-fullheight" id="project">
         <div class="hero-body">
             <div class="container has-text-centered container-pcpm-other">
-                <div class="section">
+                <div class="section-custom">
                     <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">
 
                     </p>
                     <h1 class="title-with-image-pcpm titre-page-supplementaire">
-                        <img class="image-titre-page-supplementaire" src="../assets/images/Titre_Photos.svg"/>
+                        <img class="image-titre-page-supplementaire" src="../assets/images/Titre_classement_general.svg"/>
                     </h1>
                 </div>
-                {% include photo-card.html %}
+                <div>
+                <iframe src="{{ site.classement-general }}" width="100%" height="600px" allow="autoplay">
+                    <a href="{{ site.classement-general }}">Le classement général ne peut pas être affiché. Cliquez ici pour y accéder.</a>
+                </iframe>
+                <!-- Ajouter en dessous pour ajouter photos -->
+                <!--{% include photo-card.html %}-->
             </div>
         </div>
     </section>
