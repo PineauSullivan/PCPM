@@ -28,7 +28,7 @@ layout: compress
     <section class="hero is-fullheight" id="project">
         <div class="hero-body">
             <div class="container has-text-centered container-pcpm-other">
-                <div class="section-custom">
+                <div class="section-custom section-custom-classement">
                     <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">
 
                     </p>
@@ -37,9 +37,9 @@ layout: compress
                     </h1>
                 </div>
                 <div>
-                <iframe src="{{ site.classement-general }}" width="100%" height="600px" allow="autoplay">
-                    <a href="{{ site.classement-general }}">Le classement général ne peut pas être affiché. Cliquez ici pour y accéder.</a>
-                </iframe>
+                </div class="content-classement has-text-centered-desktop has-text-centered-fullhd has-text-centered has-text-centered-tablet">
+                    {{ content }}
+                </div>
                 <!-- Ajouter en dessous pour ajouter photos -->
                 <!--{% include photo-card.html %}-->
             </div>
