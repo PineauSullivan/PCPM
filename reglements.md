@@ -45,7 +45,6 @@ Un membre peut être exclu pour les motifs suivants :
 - Détérioration du matériel ou des locaux
 - Comportement non conforme avec la loi française concernant les jeux d’argent et le tabac
 - Non-respect des statuts, du règlement intérieur et du règlement du forum
-- Refus de paiement de la cotisation
 - Tout acte de tricherie
 
 Une exclusion temporaire peut être décidée et prononcée verbalement à tout moment à l’adhérent par le Président et un membre du bureau pour les motifs exposés ci-dessus. Une confirmation écrite lui sera envoyée par tout moyen jugé opportun (courriel, SMS, lettre non recommandée…). Cette exclusion ne peut dépasser 30 jours.
