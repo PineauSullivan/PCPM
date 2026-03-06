@@ -1,7 +1,8 @@
 ---
 layout: adhesion
 title: Adhésion
-lien-banque-iframe: https://www.payasso.fr/pokerpcpm/inscription
+lien-banque-iframe-avec-don: https://www.payasso.fr/pokerpcpm/inscription
+lien-banque-iframe-sans-don: https://docs.google.com/forms/d/e/1FAIpQLSc9r7gxXQU6QgfxixONxhxXYB_o-gVgEB3M2UUQxRHQa4k1sg/viewform?embedded=true
 ---
 
 # Cher futur adhérent, Bienvenue au PCPM.

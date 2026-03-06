@@ -23,24 +23,11 @@ Membre du bureau : membre adhérent de l'association et nommé par le conseil d�
 
 Adhérent : membre adhérent à l'association.
 
-<h3 style="text-decoration: underline;">Cotisation</h3>
-Un membre du club voulant adhérer pour une nouvelle année devra remplir son formulaire d’adhésion et s'acquitter de sa cotisation au plus tard une semaine avant sa première participation à l’une des compétitions organisées par le club, sinon il ne pourra pas participer.
-
-Une adhésion est valable de la date de souscription jusqu’à la fin de l’assemblée générale ordinaire annuelle. Cette dernière est habituellement organisée peu de temps après le dernier tournoi de la saison. Une préinscription est possible dès la fin de l’assemblée générale ordinaire de la saison précédente (encaissement différé des cotisations possible).
-
-Le paiement de la cotisation est indispensable pour devenir adhérent et pouvoir participer aux différentes compétitions live proposées par le PCPM.
-Les membres du bureau doivent s’acquitter d’une cotisation annuelle.
-
-Le montant de la cotisation proposé annuellement par le bureau et validé à l'occasion de l'Assemblée Générale Ordinaire dans le respect de la procédure de stabilité financière de l’association.
-
-La cotisation annuelle est mentionnée sur le formulaire d’adhésion.
-
-Le paiement de la cotisation doit s’effectue en virement (sur le compte bancaire de l’association).
-
-Toute cotisation versée à l’association est définitivement acquise. Il ne saurait être exigé un remboursement de cotisation en cours d’année en cas de démission, d’exclusion, ou de décès d’un membre.
+<h3 style="text-decoration: underline;">Donation</h3>
+Tout membre de l’association pourra s’il le souhaite faire un don à l’association. Ses dons lui permettront de se développer (nouveaux jetons, création de nouvelles tables, nouvelles cartes de jeu…) et de proposer des lots plus important lors des tournois.
 ​
 <h3 style="text-decoration: underline;">Demande d’adhésion</h3>
-Les personnes désirant adhérer devront remplir un formulaire d’adhésion et y joindre le montant de la cotisation.
+Les personnes désirant adhérer devront remplir un formulaire d’adhésion.
 
 L’association est exclusivement réservée aux personnes majeures au jour du premier tournoi de la saison.
 
