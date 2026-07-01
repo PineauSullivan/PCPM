@@ -19,7 +19,7 @@ title: Classement général
 |13             | Yohann pédeau		| 48
 |14             | Bib's		| 47
 |15             | Vincent ALBERT | 46
-|16             | Arnaud MAINTENANT	| 60
+|16             | Arnaud MAINTENANT	| 45
 |17             | Thierry DEBEVE	| 44
 |18             | Julien MARICHAL	| 43
 |19             | Alexis douaud	| 42
