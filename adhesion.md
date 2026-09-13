@@ -1,7 +1,7 @@
 ---
 layout: adhesion
-title: Adhésion
-lien-banque-iframe-avec-don: https://www.payasso.fr/pokerpcpm/inscription
+title: Inscription
+lien-banque-iframe-avec-don: https://www.monetico-online-asso.com/pokerpcpm/adhesion
 lien-banque-iframe-sans-don: https://docs.google.com/forms/d/e/1FAIpQLSc9r7gxXQU6QgfxixONxhxXYB_o-gVgEB3M2UUQxRHQa4k1sg/viewform?embedded=true
 ---
 
@@ -17,6 +17,6 @@ Conditions requises pour participer à un tournoi PCPM :
 
 _Pour plus d'informations sur le déroulement des tournois, n’hésitez pas à aller sur le site rubrique règlements : [https://pokerpcpm.fr/reglements](https://pokerpcpm.fr/reglements)._
 
-**Pour adhérer à la saison 2026, vous avez la possibilité de faire un don du montant de votre choix.**
+**Pour s'inscrire au tournoi, vous avez la possibilité de faire un don du montant de votre choix.**
 
 À très bientôt 😄
