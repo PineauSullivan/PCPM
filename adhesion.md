@@ -5,7 +5,7 @@ lien-banque-iframe-avec-don: https://www.monetico-online-asso.com/pokerpcpm/adhe
 lien-banque-iframe-sans-don: https://docs.google.com/forms/d/e/1FAIpQLSc9r7gxXQU6QgfxixONxhxXYB_o-gVgEB3M2UUQxRHQa4k1sg/viewform?embedded=true
 ---
 
-# Cher futur adhérent, Bienvenue au PCPM.
+# Cher futur membre, Bienvenue au PCPM.
 Etre adhérent chez nous pour la saison 2026, c’est quoi :
 * un accès au tournoi de l'année,
 * un accès au groupe WhatsApp de l’association,
