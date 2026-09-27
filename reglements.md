@@ -24,7 +24,7 @@ Membre du bureau : membre adhérent de l'association et nommé par le conseil d�
 <h3 style="text-decoration: underline;">Donation</h3>
 Toute personne inscrite au tournoi de l’association pourra s’il le souhaite faire un don à l’association. Ses dons permettront au PCPM de se développer (nouveaux jetons, création de nouvelles tables, nouvelles cartes de jeu…) et de proposer des lots plus important lors des tournois.
 ​
-<h3 style="text-decoration: underline;">Demande d’adhésion</h3>
+<h3 style="text-decoration: underline;">Demande d’inscription</h3>
 Les personnes désirant s'inscrire au tournoi devront remplir un formulaire d’inscription.
 
 L’association est exclusivement réservée aux personnes majeures au jour du tournoi.
@@ -49,7 +49,7 @@ Une exclusion temporaire peut être décidée et prononcée verbalement à tout 
 
 Une exclusion définitive doit être décidée par le bureau lors d’une réunion, après avoir entendu les explications du joueur. Le joueur sera convoqué par lettre recommandée avec AR 7 jours avant cette réunion, et pourra être assisté par une personne de son choix. Cette lettre comportera les motifs d’une éventuelle exclusion définitive. La décision sera notifiée par lettre recommandée avec AR.
 
-Le membre démissionnaire devra adresser sous lettre (simple ou recommandée avec AR) sa décision au bureau. Aucune restitution de cotisation n’est due au membre démissionnaire.
+Le membre démissionnaire devra adresser sous lettre (simple ou recommandée avec AR) sa décision au bureau.
 
 <h3 style="text-decoration: underline;">Droit à l’image</h3>
 Le formulaire d'inscription à l’association permet à chaque joueur de choisir les modalités de son apparition sur les différents supports employés par le PCPM (site internet, facebook…).
