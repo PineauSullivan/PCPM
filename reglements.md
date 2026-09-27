@@ -7,9 +7,9 @@ title: Règlements
 
 Le règlement intérieur a pour but de préciser les statuts du PCPM.
 
-Le présent règlement intérieur est remis et s’impose à tout adhérent.
+Le présent règlement intérieur est remis et s’impose à tout inscrit.
 
-L’adhésion à l’association vaut acceptation du présent règlement intérieur.
+L'inscription au tournoi de l'association vaut acceptation du présent règlement intérieur.
 ​
 <h2 style="color:#3273dc;">1. Fonctionnement de l'association</h2>
 Les activités qui pourront être proposées par l’association permettront aux membres de se rencontrer autour des tables pour partager notre passion commune : le poker.
@@ -21,64 +21,59 @@ Sa volonté est de mettre en avant les valeurs de compétition et de convivialit
 <h3 style="text-decoration: underline;">Définition des membres</h3>
 Membre du bureau : membre adhérent de l'association et nommé par le conseil d’administration selon les modalités précisées dans les statuts.
 
-Adhérent : membre adhérent à l'association.
-
 <h3 style="text-decoration: underline;">Donation</h3>
-Tout membre de l’association pourra s’il le souhaite faire un don à l’association. Ses dons lui permettront de se développer (nouveaux jetons, création de nouvelles tables, nouvelles cartes de jeu…) et de proposer des lots plus important lors des tournois.
+Toute personne inscrite au tournoi de l’association pourra s’il le souhaite faire un don à l’association. Ses dons permettront au PCPM de se développer (nouveaux jetons, création de nouvelles tables, nouvelles cartes de jeu…) et de proposer des lots plus important lors des tournois.
 ​
 <h3 style="text-decoration: underline;">Demande d’adhésion</h3>
-Les personnes désirant adhérer devront remplir un formulaire d’adhésion.
+Les personnes désirant s'inscrire au tournoi devront remplir un formulaire d’inscription.
 
-L’association est exclusivement réservée aux personnes majeures au jour du premier tournoi de la saison.
+L’association est exclusivement réservée aux personnes majeures au jour du tournoi.
 
-Le bureau se réserve le droit d’accepter ou de refuser une demande d’adhésion sans devoir se justifier. Il communiquera sa décision sous 15 jours par tout moyen à sa convenance (téléphone, courrier, courriel…).
+Le bureau se réserve le droit d’accepter ou de refuser une demande d’inscription sans devoir se justifier. Il communiquera sa décision sous 15 jours par tout moyen à sa convenance (téléphone, courrier, courriel…).
 ​
 <h3 style="text-decoration: underline;">Conditions sanitaires</h3>
-En cas de crise sanitaire et/ou de confinement, l’arrêt du championnat sera automatique jusqu’à nouvel ordre.
+En cas de crise sanitaire et/ou de confinement, le tournoi sera annulé.
 
-Si le gouvernement met en place un pass sanitaire alors celui-ci sera demandé aux adhérents afin de participer aux tournois lives.
+Si le gouvernement met en place un pass sanitaire alors celui-ci sera demandé aux inscrits afin de participer aux tournois lives.
 ​
 <h3 style="text-decoration: underline;">Exclusion, démission et décès</h3>
-Un membre peut être exclu pour les motifs suivants :
-- Propos désobligeants envers les autres membres, agressivité, violence
+Un joueur peut être exclu pour les motifs suivants :
+- Propos désobligeants envers les autres joueurs, agressivité, violence
 - Comportement non conforme avec l’éthique de l’association
 - Détérioration du matériel ou des locaux
 - Comportement non conforme avec la loi française concernant les jeux d’argent et le tabac
 - Non-respect des statuts, du règlement intérieur et du règlement du forum
 - Tout acte de tricherie
 
-Une exclusion temporaire peut être décidée et prononcée verbalement à tout moment à l’adhérent par le Président et un membre du bureau pour les motifs exposés ci-dessus. Une confirmation écrite lui sera envoyée par tout moyen jugé opportun (courriel, SMS, lettre non recommandée…). Cette exclusion ne peut dépasser 30 jours.
+Une exclusion temporaire peut être décidée et prononcée verbalement à tout moment à un joueur par le Président ou un membre du bureau pour les motifs exposés ci-dessus. Une confirmation écrite lui sera envoyée par tout moyen jugé opportun (courriel, SMS, lettre non recommandée…). Cette exclusion ne peut dépasser 30 jours.
 
-Une exclusion définitive doit être décidée par le bureau lors d’une réunion, après avoir entendu les explications de l’adhérent. L’adhérent sera convoqué par lettre recommandée avec AR 7 jours avant cette réunion, et pourra être assisté par une personne de son choix. Cette lettre comportera les motifs d’une éventuelle exclusion définitive. La décision sera notifiée par lettre recommandée avec AR.
+Une exclusion définitive doit être décidée par le bureau lors d’une réunion, après avoir entendu les explications du joueur. Le joueur sera convoqué par lettre recommandée avec AR 7 jours avant cette réunion, et pourra être assisté par une personne de son choix. Cette lettre comportera les motifs d’une éventuelle exclusion définitive. La décision sera notifiée par lettre recommandée avec AR.
 
 Le membre démissionnaire devra adresser sous lettre (simple ou recommandée avec AR) sa décision au bureau. Aucune restitution de cotisation n’est due au membre démissionnaire.
 
-Un membre du bureau ou du conseil d’administration qui ne s’acquitte pas de sa cotisation annuelle au plus tard lors de sa première participation sera considéré d’office comme démissionnaire.
-​
 <h3 style="text-decoration: underline;">Droit à l’image</h3>
-Le formulaire d’adhésion à l’association permet à chaque membre de choisir les modalités de son apparition sur les différents supports employés par le PCPM (site internet, facebook…).
+Le formulaire d'inscription à l’association permet à chaque joueur de choisir les modalités de son apparition sur les différents supports employés par le PCPM (site internet, facebook…).
 ​
 <h3 style="text-decoration: underline;">Assemblée générale</h3>
 L’assemblée générale ordinaire se réunit une fois par an selon les modalités prévues dans les statuts.
 ​
 <h3 style="text-decoration: underline;">Assemblée générale extraordinaire</h3>
 Une assemblée générale extraordinaire peut se réunir en cas de besoin (par exemple : pour la modification essentielle des statuts, situation financière difficile, etc.).
-Les membres à jour de leur cotisation sont convoqués selon les modalités prévues dans les statuts.
 ​
 <h3 style="text-decoration: underline;">Modification du règlement intérieur</h3>
-Le règlement intérieur peut être modifié à tout moment par le bureau. Le nouveau règlement intérieur est envoyé par courriel à tous les membres de l’association possédant une adresse mail. Le règlement intérieur est également disponible sur demande à un des membres du bureau et à tout moment sur le site internet du club. Les adhérents s’engagent à consulter régulièrement le règlement intérieur sur les éventuels changements.
+Le règlement intérieur peut être modifié à tout moment par le bureau. Le nouveau règlement intérieur est envoyé par courriel à tous les membres de l’association possédant une adresse mail. Le règlement intérieur est également disponible sur demande à un des membres du bureau et à tout moment sur le site internet du club. Les joueurs s’engagent à consulter régulièrement le règlement intérieur sur les éventuels changements.
 ​
 <h2 style="color:#3273dc;">2. Organisation des tournois</h2>
 
-Le PCPM  organise des tournois ouverts exclusivement à ses membres. Ces tournois sont assujettis au règlement des tournois sans croupier, celui-ci est disponible sur le site internet du club. Il précise les cas litigieux les plus courants.
+Le PCPM  organise des tournois ouverts à toute personne majeur. Ces tournois sont assujettis au règlement des tournois sans croupier, celui-ci est disponible sur le site internet du club. Il précise les cas litigieux les plus courants.
 
-La totalité des tournois comptant pour le championnat se joue en Texas Hold’em no limit. Les règles de cette variante de poker est également disponible sur le site du club.
+Les tournois se jouent en Texas Hold’em no limit. Les règles de cette variante de poker est également disponible sur le site du club.
 ​
 
 <h3 style="text-decoration: underline;">Inscriptions</h3>
-Un planning des tournois proposés est disponible pour tout adhérent par le biais du site du club.
+Un planning des tournois proposés est disponible pour tout joueur par le biais du site du club.
 
-L’inscription préalable à chacun des tournois organisés par le club est obligatoire. Les modalités d’inscription sont signifiées aux membres de l’association en début de saison.
+L’inscription préalable à chacun des tournois organisés par le club est obligatoire. Les modalités d’inscription sont signifiées aux membres de l’association en début de saison par mail.
 ​
 <h3 style="text-decoration: underline;">Horaires et retards</h3>
 Les horaires des tournois sont signifiés aux membres de l’association en début de saison.
