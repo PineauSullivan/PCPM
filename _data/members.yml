@@ -13,15 +13,15 @@
 - name: Jordy Poupard
   image: assets/images/IMG_2228.jpeg
   svg: assets/images/membres/Jordy_membre.svg
-- name: Jean-Pierre Guyon
-  image: assets/images/membres/Guyon_Jean_pierre.jpg
-  svg: assets/images/membres/Jp_membre.svg
 - name: Yves Fonteneau
   image: assets/images/membres/Fonteneau_Yves.jpg
   svg: assets/images/membres/Yves_membre.svg
 - name: Mathieu Riffaut
   image: assets/images/membres/Riffaut_Mathieu.jpg
   svg: assets/images/membres/Mathieu_membre.svg
+- name: Jean-Pierre Guyon
+  image: assets/images/membres/Guyon_Jean_pierre.jpg
+  svg: assets/images/membres/Jp_membre.svg
 - name: Baptiste Marchetti
   image: assets/images/membres/Marchetti_Baptiste.jpg
   svg: assets/images/membres/Baptiste_membre.svg
