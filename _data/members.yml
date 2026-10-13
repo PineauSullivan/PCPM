@@ -1,33 +1,36 @@
 - name: Kevin Marais
   image: assets/images/membres/Kevin_Marais.jpg
   svg: assets/images/membres/Kévin_membre.svg
-- name: Baptiste Marchetti
-  image: assets/images/membres/Marchetti_Baptiste.jpg
-  svg: assets/images/membres/Baptiste_membre.svg
-- name: Laëtitia Boiziot
-  image: assets/images/membres/Boiziot_Laetitia.jpg
-  svg: assets/images/membres/Leati_membre.svg
-- name: Mohamed Hammari
-  image: assets/images/membres/Hammari_Mohamed.jpg
-  svg: assets/images/membres/Mohamed_membre.svg
 - name: Nicolas Boiziot
   image: assets/images/membres/Boiziot_Nicolas.jpg
   svg: assets/images/membres/Nicolas_membre.svg
-- name: Jean-Pierre Guyon
-  image: assets/images/membres/Guyon_Jean_pierre.jpg
-  svg: assets/images/membres/Jp_membre.svg
 - name: Marcelo Novaes
   image: assets/images/membres/Novaes_Marcelo.jpg
   svg: assets/images/membres/Marcelo_membre.svg
-- name: Armand Covents
-  image: assets/images/membres/Covents_Armand.jpg
-  svg: assets/images/membres/Armand_membre.svg
+- name: Laëtitia Boiziot
+  image: assets/images/membres/Boiziot_Laetitia.jpg
+  svg: assets/images/membres/Leati_membre.svg
+- name: Jordy Poupard
+  image: assets/images/IMG_2228.jpeg
+  svg: assets/images/membres/Jordy_membre.svg
 - name: Yves Fonteneau
   image: assets/images/membres/Fonteneau_Yves.jpg
   svg: assets/images/membres/Yves_membre.svg
 - name: Mathieu Riffaut
   image: assets/images/membres/Riffaut_Mathieu.jpg
   svg: assets/images/membres/Mathieu_membre.svg
-- name: Jordy Poupard
-  image: assets/images/IMG_2228.jpeg
-  svg: assets/images/membres/Jordy_membre.svg
+- name: Baptiste Marchetti
+  image: assets/images/membres/Marchetti_Baptiste.jpg
+  svg: assets/images/membres/Baptiste_membre.svg
+- name: Mohamed Hammari
+  image: assets/images/membres/Hammari_Mohamed.jpg
+  svg: assets/images/membres/Mohamed_membre.svg
+- name: Jean-Pierre Guyon
+  image: assets/images/membres/Guyon_Jean_pierre.jpg
+  svg: assets/images/membres/Jp_membre.svg
+- name: Armand Covents
+  image: assets/images/membres/Covents_Armand.jpg
+  svg: assets/images/membres/Armand_membre.svg
+- name: Baptiste Perrineau
+  image: assets/images/membres/baptisteP_membre.JPG
+  svg: assets/images/membres/BaptisteP_membre.svg
