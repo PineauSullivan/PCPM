@@ -13,6 +13,9 @@
 - name: Jordy Poupard
   image: assets/images/IMG_2228.jpeg
   svg: assets/images/membres/Jordy_membre.svg
+- name: Jean-Pierre Guyon
+  image: assets/images/membres/Guyon_Jean_pierre.jpg
+  svg: assets/images/membres/Jp_membre.svg
 - name: Yves Fonteneau
   image: assets/images/membres/Fonteneau_Yves.jpg
   svg: assets/images/membres/Yves_membre.svg
@@ -25,9 +28,6 @@
 - name: Mohamed Hammari
   image: assets/images/membres/Hammari_Mohamed.jpg
   svg: assets/images/membres/Mohamed_membre.svg
-- name: Jean-Pierre Guyon
-  image: assets/images/membres/Guyon_Jean_pierre.jpg
-  svg: assets/images/membres/Jp_membre.svg
 - name: Armand Covents
   image: assets/images/membres/Covents_Armand.jpg
   svg: assets/images/membres/Armand_membre.svg
