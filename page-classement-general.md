@@ -2,51 +2,54 @@
 layout: Classement général
 title: Classement général
 ---
-
+Après 3 tournois voici le classement général 2025 : BRAVO à TOUS !!!
 
 | Classement    | Prénom & nom  | Point  |
 | :-------------: | :-------------: | :------: |
-|1	            | Yoann Boiziot	| 60 |
-|2	            | Erwan olivier	| 59
-|3	            | Quentin maille	| 58
-|4	            | Jordy POUPARD	| 57
-|5	            | Nicolas LAFAURIE	| 56
-|6	            | Julien RONTARD	| 55
-|7	            | Pierre justeau	| 54
-|8	            | Mickael PIN	| 53
-|9	            | Anthony BERTAUD	| 52
-|10             | Anthony SMETS	| 51
-|11             | Lulii NICHISENCOV	| 50
-|12             | Fabien Noel	| 49
-|13             | Yohann pédeau		| 48
-|14             | Bib's		| 47
-|15             | Vincent ALBERT | 46
-|16             | Arnaud MAINTENANT	| 45
-|17             | Thierry DEBEVE	| 44
-|18             | Julien MARICHAL	| 43
-|19             | Alexis douaud	| 42
-|20             | David boiziot	| 41
-|21             | Nolan olivierv	| 40
-|22             | Pierre yves Fonteneau	| 39
-|23             | Stephan HECTOR	| 38
-|24             | Tony tkatchenko	| 37
-|25             | Alain BOIZIOT	| 36
-|26             | Matthieu RIFFAUD	| 35
-|27             | Yves FONTENEAU	| 34
-|28             | Guillaume nicoly	| 33
-|29             | Enzo bonthavy	| 32
-|30             | Marco BAPTISTA	| 31
-|31             | Florian COLINET	| 30
-|32             | Angelo martint	| 29
-|33             | Thierry cachet	| 28
-|34             | Armand COVENTS	| 27
-|35             | Fabien prieur	| 26
-|36             | Frédéric brilleaud	| 25
-|37             | Joel BOURDIN	| 24
-|38             | Mathieu CHAILLOU	| 23
-|39             | William hecker	| 22
-|40             | Antoine JAUD	| 21
-|41             | Jean-Pierre GUYON	| 20
-|42             | Elouan PIN	| 19
-|43             | Elisio PIN	| 18
-|44             | Davy MINEAU	| 17
+|1	            | Julien RONTARD 	       | 168 
+|2	            | Yohann PEDEAU 	       | 162
+|3	            | Thierry DEBEVE 	       | 157
+|4	            | Anthony SMETS 	       | 152
+|5	            | Jordy POUPARD          | 149
+|6	            | Yoann Boiziot 	       | 148
+|7	            | Mickael PIN 	         | 145
+|8	            | Alexis DOUAUD 	       | 141
+|9	            | Erwan OLIVIER 	       | 135
+|9              | Mathieu CHAILLOU       | 135
+|11             | Tony TKATCHENKO 	     | 130
+|12             | Yves FONTENEAU 	       | 126
+|13             | Arnaud MAINTENANT      | 125
+|14             | Alain BOIZIOT 		     | 122
+|15             | Pierre Yves FONTENEAU  | 119
+|15             | Matthieu RIFFAUD 	     | 119
+|17             | Antoine JAUD 	         | 117
+|18             | Fabien PRIEUR 	       | 107
+|18             | Angelo SILVA MARTINS 	 | 107
+|20             | Nicolas LAFAURIE 	     | 104
+|21             | Baptiste MARCHETTI 	   | 100
+|21             | Fabien NOEL 	         | 100
+|23             | Baptiste PERRINEAU 	   | 99
+|24             | Anthony BERTAUD 	     | 96
+|25             | Elisio PIN 	           | 94
+|26             | Aymeric DAVID 	       | 93
+|27             | Anthony POUVREAU 	     | 91
+|28             | Julien MARICHAL 	     | 89
+|29             | Elouan PIN 	           | 84
+|30             | David BOIZIOT 	       | 78
+|30             | Marco BAPTISTA 	       | 78
+|32             | Jean-Pierre GUYON 	   | 72
+|33             | Armand COVENTS 	       | 67
+|33             | Thierry CACHET 	       | 67
+|33             | Frédéric BRILLEAUD 	   | 67
+|36             | Quentin MAILLE 	       | 58
+|37             | Pierre JUSTEAU 	       | 54
+|38             | Lulii NICHISENCOV 	   | 50
+|39             | Vincent ALBERT 	       | 46
+|40             | Nolan OLIVIER 	       | 40
+|41             | Stephan HECTOR 	       | 38
+|42             | Guillaume NICOLY 	     | 33
+|43             | Enzo BONTHAVY 	       | 32
+|44             | Florian COLINET 	     | 30
+|45             | Joel BOURDIN  	       | 24
+|46             | William HECKER  	     | 22
+|47             | Davy MINEAU  	         | 17
