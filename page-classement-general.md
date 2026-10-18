@@ -2,6 +2,9 @@
 layout: Classement général
 title: Classement général
 ---
+
+Classement : "https://drive.google.com/file/d/1zQWB5bPpKHkncWmW-aZtF6ZzRqva8i14/view?usp=drive_link"
+
 | Classement    | Prénom & nom  | Point  |
 | :-------------: | :-------------: | :------: |
 |1	            | Yoann Boiziot	| 60 |
