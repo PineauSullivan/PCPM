@@ -3,7 +3,8 @@ layout: Classement général
 title: Classement général
 ---
 Après 3 tournois voici le classement général 2025 : BRAVO à TOUS !!!
-
+---
+---
 
 | Classement    | Prénom & nom  | Point  |
 | :-------------: | :-------------: | :------: |
