@@ -1,8 +1,8 @@
 ---
 layout: adhesion
 title: Inscription
-lien-banque-iframe-avec-don: https://docs.google.com/forms/d/e/1FAIpQLSeeIYfpY3zknYaieLeAOfAiP2U4LgxFAt6X0dKvf90pTq_JWg/viewform?usp=dialog
-lien-banque-iframe-sans-don: https://docs.google.com/forms/d/e/1FAIpQLSeeIYfpY3zknYaieLeAOfAiP2U4LgxFAt6X0dKvf90pTq_JWg/viewform?usp=dialog
+lien-banque-iframe-avec-don: https://www.monetico-online-asso.com/pokerpcpm/adhesion
+lien-banque-iframe-sans-don: https://docs.google.com/forms/d/e/1FAIpQLSeOJ7ahFm-lnbyGGDLC9gaFM2426HU9NqrI6CO1LRJvTch1UA/viewform?usp=sharing&ouid=105326206605342711829
 ---
 
 # Bienvenue au PCPM,
